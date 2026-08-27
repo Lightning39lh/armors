@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 320" role="img" aria-label="Mock chestplate">
+  <path d="M60 36c34 16 106 16 140 0l34 64-32 182c-45 24-99 24-144 0L26 100l34-64Z" fill="#aeb6c2"/>
+  <path d="M130 48v246" stroke="#6b7481" stroke-width="10"/>
+  <path d="M60 92c38 18 102 18 140 0" fill="none" stroke="#d8dce2" stroke-width="14" stroke-linecap="round"/>
+  <path d="M72 166h116" stroke="#727b88" stroke-width="10" stroke-linecap="round"/>
+</svg>

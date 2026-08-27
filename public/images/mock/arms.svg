@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" role="img" aria-label="Mock arms">
+  <path d="M104 38 52 150l40 118 54-18-28-96 44-92-58-24Z" fill="#9fa8b5"/>
+  <path d="M416 38 468 150l-40 118-54-18 28-96-44-92 58-24Z" fill="#9fa8b5"/>
+  <path d="M112 52 86 154l34 92" fill="none" stroke="#d9dde4" stroke-width="14" stroke-linecap="round"/>
+  <path d="M408 52 434 154l-34 92" fill="none" stroke="#d9dde4" stroke-width="14" stroke-linecap="round"/>
+</svg>

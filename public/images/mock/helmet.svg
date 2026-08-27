@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img" aria-label="Mock helmet">
+  <path d="M54 94c0-45 31-76 68-76s68 31 68 76v36H54V94Z" fill="#b6bcc6"/>
+  <path d="M69 96c11-18 29-28 53-28s42 10 53 28" fill="none" stroke="#5b6472" stroke-width="12" stroke-linecap="round"/>
+  <path d="M50 120h144v26H50z" fill="#7f8794"/>
+  <path d="M103 22h36v116h-36z" fill="#d7dbe0" opacity=".75"/>
+</svg>

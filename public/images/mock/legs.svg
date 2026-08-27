@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 360" role="img" aria-label="Mock legs">
+  <path d="M56 16h62l-8 314H44L56 16Z" fill="#aab2be"/>
+  <path d="M142 16h62l12 314h-66L142 16Z" fill="#aab2be"/>
+  <path d="M84 34 72 318M176 34l12 284" stroke="#d7dbe1" stroke-width="12" stroke-linecap="round"/>
+  <path d="M48 160h66M146 160h66" stroke="#697382" stroke-width="10" stroke-linecap="round"/>
+</svg>

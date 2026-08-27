@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 140" role="img" aria-label="Mock boots">
+  <path d="M76 24h58l12 58 46 18c12 5 16 18 8 28H50c-13 0-20-15-12-26l34-36 4-42Z" fill="#8d95a1"/>
+  <path d="M186 24h58l4 42 34 36c8 11 1 26-12 26H120c-8-10-4-23 8-28l46-18 12-58Z" fill="#8d95a1"/>
+  <path d="M48 112h142M130 112h142" stroke="#d9dde4" stroke-width="10" stroke-linecap="round"/>
+</svg>

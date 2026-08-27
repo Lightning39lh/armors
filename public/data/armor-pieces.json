@@ -1,0 +1,36 @@
+[
+  { "id": "helmet-napoleonic-1800", "name": "Napoleonic Helmet", "part": "helmet", "startYear": 1800, "endYear": 1820, "thumbnail": "/images/mock/helmet.svg", "image": "/images/mock/helmet.svg" },
+  { "id": "helmet-line-1812", "name": "Line Infantry Helmet", "part": "helmet", "startYear": 1812, "endYear": 1832, "thumbnail": "/images/mock/helmet.svg", "image": "/images/mock/helmet.svg" },
+  { "id": "helmet-dragoon-1822", "name": "Dragoon Helmet", "part": "helmet", "startYear": 1822, "endYear": 1845, "thumbnail": "/images/mock/helmet.svg", "image": "/images/mock/helmet.svg" },
+  { "id": "helmet-late-1835", "name": "Late Cavalry Helmet", "part": "helmet", "startYear": 1835, "endYear": 1860, "thumbnail": "/images/mock/helmet.svg", "image": "/images/mock/helmet.svg" },
+  { "id": "helmet-ceremonial-1865", "name": "Ceremonial Helmet", "part": "helmet", "startYear": 1865, "endYear": 1880, "thumbnail": "/images/mock/helmet.svg", "image": "/images/mock/helmet.svg" },
+
+  { "id": "chest-republican-1790", "name": "Republican Breastplate", "part": "chest", "startYear": 1790, "endYear": 1805, "thumbnail": "/images/mock/chest.svg", "image": "/images/mock/chest.svg" },
+  { "id": "chest-consular-1802", "name": "Consular Cuirass", "part": "chest", "startYear": 1802, "endYear": 1812, "thumbnail": "/images/mock/chest.svg", "image": "/images/mock/chest.svg" },
+  { "id": "chest-imperial-1810", "name": "Imperial Chestplate", "part": "chest", "startYear": 1810, "endYear": 1830, "thumbnail": "/images/mock/chest.svg", "image": "/images/mock/chest.svg" },
+  { "id": "chest-guard-1818", "name": "Guard Parade Cuirass", "part": "chest", "startYear": 1818, "endYear": 1838, "thumbnail": "/images/mock/chest.svg", "image": "/images/mock/chest.svg" },
+  { "id": "chest-restoration-1825", "name": "Restoration Chestplate", "part": "chest", "startYear": 1825, "endYear": 1840, "thumbnail": "/images/mock/chest.svg", "image": "/images/mock/chest.svg" },
+  { "id": "chest-late-1830", "name": "Late Parade Cuirass", "part": "chest", "startYear": 1830, "endYear": 1860, "thumbnail": "/images/mock/chest.svg", "image": "/images/mock/chest.svg" },
+  { "id": "chest-industrial-1855", "name": "Industrial Display Cuirass", "part": "chest", "startYear": 1855, "endYear": 1875, "thumbnail": "/images/mock/chest.svg", "image": "/images/mock/chest.svg" },
+  { "id": "chest-ceremonial-1868", "name": "Ceremonial Mirror Cuirass", "part": "chest", "startYear": 1868, "endYear": 1890, "thumbnail": "/images/mock/chest.svg", "image": "/images/mock/chest.svg" },
+
+  { "id": "arms-republican-1795", "name": "Republican Arm Guards", "part": "arms", "startYear": 1795, "endYear": 1810, "thumbnail": "/images/mock/arms.svg", "image": "/images/mock/arms.svg" },
+  { "id": "arms-field-1815", "name": "Field Arm Guards", "part": "arms", "startYear": 1815, "endYear": 1825, "thumbnail": "/images/mock/arms.svg", "image": "/images/mock/arms.svg" },
+  { "id": "arms-guard-1820", "name": "Guard Arm Harness", "part": "arms", "startYear": 1820, "endYear": 1840, "thumbnail": "/images/mock/arms.svg", "image": "/images/mock/arms.svg" },
+  { "id": "arms-late-1848", "name": "Late Arm Harness", "part": "arms", "startYear": 1848, "endYear": 1870, "thumbnail": "/images/mock/arms.svg", "image": "/images/mock/arms.svg" },
+
+  { "id": "gloves-consular-1800", "name": "Consular Gauntlets", "part": "gloves", "startYear": 1800, "endYear": 1815, "thumbnail": "/images/mock/gloves.svg", "image": "/images/mock/gloves.svg" },
+  { "id": "gloves-guard-1805", "name": "Guard Gauntlets", "part": "gloves", "startYear": 1805, "endYear": 1822, "thumbnail": "/images/mock/gloves.svg", "image": "/images/mock/gloves.svg" },
+  { "id": "gloves-restoration-1828", "name": "Restoration Gauntlets", "part": "gloves", "startYear": 1828, "endYear": 1844, "thumbnail": "/images/mock/gloves.svg", "image": "/images/mock/gloves.svg" },
+  { "id": "gloves-late-1850", "name": "Late Officer Gauntlets", "part": "gloves", "startYear": 1850, "endYear": 1870, "thumbnail": "/images/mock/gloves.svg", "image": "/images/mock/gloves.svg" },
+
+  { "id": "legs-consular-1804", "name": "Consular Leg Armor", "part": "legs", "startYear": 1804, "endYear": 1816, "thumbnail": "/images/mock/legs.svg", "image": "/images/mock/legs.svg" },
+  { "id": "legs-line-1812", "name": "Line Infantry Leg Armor", "part": "legs", "startYear": 1812, "endYear": 1828, "thumbnail": "/images/mock/legs.svg", "image": "/images/mock/legs.svg" },
+  { "id": "legs-dragoon-1825", "name": "Dragoon Leg Armor", "part": "legs", "startYear": 1825, "endYear": 1845, "thumbnail": "/images/mock/legs.svg", "image": "/images/mock/legs.svg" },
+  { "id": "legs-late-1855", "name": "Late Leg Harness", "part": "legs", "startYear": 1855, "endYear": 1880, "thumbnail": "/images/mock/legs.svg", "image": "/images/mock/legs.svg" },
+
+  { "id": "boots-republican-1798", "name": "Republican Sabatons", "part": "boots", "startYear": 1798, "endYear": 1810, "thumbnail": "/images/mock/boots.svg", "image": "/images/mock/boots.svg" },
+  { "id": "boots-officer-1810", "name": "Officer Sabatons", "part": "boots", "startYear": 1810, "endYear": 1820, "thumbnail": "/images/mock/boots.svg", "image": "/images/mock/boots.svg" },
+  { "id": "boots-guard-1820", "name": "Guard Sabatons", "part": "boots", "startYear": 1820, "endYear": 1842, "thumbnail": "/images/mock/boots.svg", "image": "/images/mock/boots.svg" },
+  { "id": "boots-late-1850", "name": "Late Parade Sabatons", "part": "boots", "startYear": 1850, "endYear": 1875, "thumbnail": "/images/mock/boots.svg", "image": "/images/mock/boots.svg" }
+]
