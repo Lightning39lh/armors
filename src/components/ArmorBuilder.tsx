@@ -55,6 +55,7 @@ export function ArmorBuilder() {
     pieces,
     selectedPieces,
     selectedPart,
+    selectedFormat,
   );
 
   const selectedCount = Object.values(selectedPieces).filter(Boolean).length;
@@ -90,8 +91,8 @@ export function ArmorBuilder() {
       <section className="hero-panel">
         <h1>Constructor de armaduras históricas</h1>
         <p>
-          Elegí una pieza y el sistema muestra solo las partes compatibles por
-          rango de años.
+          Elegí una pieza y el sistema separa las partes compatibles por fecha,
+          región/cultura y modalidad de combate.
         </p>
       </section>
 

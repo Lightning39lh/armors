@@ -1,5 +1,6 @@
 import type { ArmorPart } from "./armor-part";
 import type { ArmorPiece, SelectedArmorPieces } from "./armor-piece";
+import { COMBAT_FORMAT_LABEL, type CombatFormat } from "./buhurt-rules";
 import { areHistoricalRegionsCompatible } from "./historical-region";
 
 export interface ArmorPieceAvailability {
@@ -16,16 +17,24 @@ export function areYearRangesCompatible(a: ArmorPiece, b: ArmorPiece): boolean {
 export function isCompatibleWithSelection(
   candidate: ArmorPiece,
   selectedPieces: SelectedArmorPieces,
+  selectedFormat?: CombatFormat,
 ): boolean {
-  return getCompatibilityIssues(candidate, selectedPieces).length === 0;
+  return getCompatibilityIssues(candidate, selectedPieces, selectedFormat).length === 0;
 }
 
 export function getCompatibilityIssues(
   candidate: ArmorPiece,
   selectedPieces: SelectedArmorPieces,
+  selectedFormat?: CombatFormat,
 ): string[] {
   const selectedValues = Object.values(selectedPieces);
   const issues: string[] = [];
+
+  if (selectedFormat && !candidate.allowedFormats.includes(selectedFormat)) {
+    issues.push(
+      `No está marcada como permitida para ${COMBAT_FORMAT_LABEL[selectedFormat]}.`,
+    );
+  }
 
   selectedValues.forEach((selectedPiece) => {
     if (!selectedPiece || selectedPiece.part === candidate.part) {
@@ -53,6 +62,7 @@ export function getAvailablePieces(
   pieces: ArmorPiece[],
   selectedPieces: SelectedArmorPieces,
   selectedPart: ArmorPart | "all",
+  selectedFormat?: CombatFormat,
 ): ArmorPiece[] {
   return pieces.filter((piece) => {
     const matchesPart = selectedPart === "all" || piece.part === selectedPart;
@@ -61,7 +71,7 @@ export function getAvailablePieces(
     return (
       matchesPart &&
       !isAlreadySelectedForPart &&
-      isCompatibleWithSelection(piece, selectedPieces)
+      isCompatibleWithSelection(piece, selectedPieces, selectedFormat)
     );
   });
 }
@@ -70,11 +80,16 @@ export function getCatalogPieces(
   pieces: ArmorPiece[],
   selectedPieces: SelectedArmorPieces,
   selectedPart: ArmorPart | "all",
+  selectedFormat?: CombatFormat,
 ): ArmorPieceAvailability[] {
   return pieces
     .filter((piece) => selectedPart === "all" || piece.part === selectedPart)
     .map((piece) => {
-      const incompatibleReasons = getCompatibilityIssues(piece, selectedPieces);
+      const incompatibleReasons = getCompatibilityIssues(
+        piece,
+        selectedPieces,
+        selectedFormat,
+      );
 
       return {
         piece,
