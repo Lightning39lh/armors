@@ -1,0 +1,200 @@
+[
+  {
+    "document": "Aventails.docx.pdf",
+    "driveFileId": "1a3iiO8stId-ICQI1P5HjpvhMTJiN-jxG",
+    "textExtractionStatus": "text",
+    "verifiedItems": [
+      { "part": "neckProtection", "subtype": "chainmailAventail", "label": "Chainmail Aventail", "confidence": "pdf-text-toc" },
+      { "part": "neckProtection", "subtype": "scaleAventail", "label": "Scales Aventail", "confidence": "pdf-text-toc" },
+      { "part": "neckProtection", "subtype": "fabricAventail", "label": "Fabric Aventail", "confidence": "pdf-text-toc" },
+      { "part": "neckProtection", "subtype": "aventailSuspensionSystem", "label": "Aventail Suspension System", "confidence": "pdf-text-toc" }
+    ],
+    "ruleSectionsFound": ["Definition and general requirements", "Historical Sources and Datation", "Specific Requirements", "Approved Reproductions", "Denied Reproductions", "Materials Requirements"]
+  },
+  {
+    "document": "Greaves.pdf",
+    "driveFileId": "11RfWqEG9PgAhVojYUr8B8sq-UGOZ3H7Y",
+    "textExtractionStatus": "text",
+    "verifiedItems": [
+      { "part": "legs", "subtype": "onePanelGreaves", "label": "One Panel Greaves / Half-Greaves", "confidence": "pdf-text-toc" },
+      { "part": "legs", "subtype": "twoPanelGreaves", "label": "Two Panels Greaves / Cased Greaves", "confidence": "pdf-text-toc" },
+      { "part": "legs", "subtype": "threePanelGreaves", "label": "Three Panel Greaves", "confidence": "pdf-text-toc" },
+      { "part": "legs", "subtype": "threeQuarterGreaves", "label": "Three Quarters Greaves", "confidence": "pdf-text-toc" },
+      { "part": "legs", "subtype": "splintedGreaves", "label": "Splinted Greaves", "confidence": "pdf-text-toc" },
+      { "part": "legs", "subtype": "brigandGreaves", "label": "Brigand Greaves", "confidence": "pdf-text-toc" },
+      { "part": "legs", "subtype": "otherGreaves", "label": "Other Greaves", "confidence": "pdf-text-toc" }
+    ],
+    "ruleSectionsFound": ["Types of Greaves", "General Requirements for All Greaves", "Historical Sources and Datation", "Specific Requirements", "Approved Reproductions", "Denied Reproductions"]
+  },
+  {
+    "document": "Infraction classification and application.pdf",
+    "driveFileId": "1Koh9HVndJ-ZjIt-FbCjSlWCPd1cMJoD0",
+    "textExtractionStatus": "text",
+    "verifiedItems": [
+      { "category": "infractionSeverity", "subtype": "minorInfraction", "label": "Minor infraction", "confidence": "pdf-text-toc" },
+      { "category": "infractionSeverity", "subtype": "moderateInfraction", "label": "Moderate Infraction", "confidence": "pdf-text-toc" },
+      { "category": "infractionSeverity", "subtype": "majorInfraction", "label": "Major infraction", "confidence": "pdf-text-toc" },
+      { "category": "ruleApplication", "subtype": "source", "label": "Source", "confidence": "pdf-text-toc" },
+      { "category": "ruleApplication", "subtype": "classic", "label": "Classic", "confidence": "pdf-text-toc" },
+      { "category": "ruleApplication", "subtype": "regional", "label": "Regional", "confidence": "pdf-text-toc" },
+      { "category": "ruleApplication", "subtype": "conference", "label": "Conference", "confidence": "pdf-text-toc" }
+    ],
+    "ruleSectionsFound": ["Infraction classification", "Application of the rules"]
+  },
+  {
+    "document": "Klappvisors.pdf",
+    "driveFileId": "1oXAKtm5BcmHC-fdwxEkkBF4voqHQ_qRf",
+    "textExtractionStatus": "text",
+    "verifiedItems": [
+      { "part": "helmet", "subtype": "germanStyleKlappvisor", "label": "German-Style Klappvisor", "confidence": "pdf-text-toc" },
+      { "part": "helmet", "subtype": "italianStyleKlappvisor", "label": "Italian style Klappvisor", "confidence": "pdf-text-toc" },
+      { "part": "helmet", "subtype": "otherStyleKlappvisor", "label": "Other style Klappvisor", "confidence": "pdf-text-toc" },
+      { "part": "helmet", "subtype": "klappvisorEyeSlots", "label": "Klappvisor Eye-slots", "confidence": "pdf-text-toc" }
+    ],
+    "ruleSectionsFound": ["Historical sources and datation", "Requirements", "General Requirements", "Visor Requirements", "Eye-slots", "Aventail", "Approved Reproductions", "Denied Reproductions"]
+  },
+  {
+    "document": "Nasal and Breteche.pdf",
+    "driveFileId": "1qYAEy0az-dhNMepkiDycqxC80fI7wq6c",
+    "textExtractionStatus": "text",
+    "verifiedItems": [
+      { "part": "helmet", "subtype": "nasalHelmet", "label": "Nasal Helmet", "confidence": "pdf-text-toc" },
+      { "part": "helmet", "subtype": "bretecheHelmet", "label": "Breteche Helmet", "confidence": "pdf-text-toc" },
+      { "part": "helmet", "subtype": "nasalBretecheEyeSlots", "label": "Nasal/Breteche Eye-slots", "confidence": "pdf-text-toc" }
+    ],
+    "ruleSectionsFound": ["Historical sources and datation", "Nasal Helmet", "Breteche Helmet", "Requirements", "Visor Requirements", "Eye-slots", "Aventail"]
+  },
+  {
+    "document": "Neck Protection.pdf",
+    "driveFileId": "1Zr39dG0GyPWaHHzguSxvCLOWSCS6GWNf",
+    "textExtractionStatus": "text",
+    "verifiedItems": [
+      { "part": "neckProtection", "subtype": "neckShield", "label": "Neck Shield", "confidence": "pdf-text-toc" },
+      { "part": "neckProtection", "subtype": "lobsterTail", "label": "Lobster Tail", "confidence": "pdf-text-toc" },
+      { "part": "neckProtection", "subtype": "gorget", "label": "Gorget", "confidence": "pdf-text-toc" },
+      { "part": "neckProtection", "subtype": "concealedNeckProtection", "label": "Concealed Neck Protection", "confidence": "pdf-text-toc" }
+    ],
+    "ruleSectionsFound": ["Definition and general requirements", "Recommendations", "Historical sources and datation", "Specific requirements", "Approved reproductions", "Denied reproductions"]
+  },
+  {
+    "document": "Sabatons V2024.12.pdf",
+    "driveFileId": "1yJCJOXwFn7zvtIkdYov2aLpzyv4Dg8YR",
+    "textExtractionStatus": "text",
+    "verifiedItems": [
+      { "part": "boots", "subtype": "plateSabatons", "label": "Plate Sabatons", "confidence": "pdf-text-toc" },
+      { "part": "boots", "subtype": "brigandSabatons", "label": "Brigand Sabatons", "confidence": "pdf-text-toc" },
+      { "part": "boots", "subtype": "scaleSabatons", "label": "Scale Sabatons", "confidence": "pdf-text-toc" },
+      { "part": "boots", "subtype": "chainmailSabatons", "label": "Chainmail Sabatons", "confidence": "pdf-text-toc" }
+    ],
+    "ruleSectionsFound": ["Definition and general requirements", "Historical sources and datation", "Specific requirements", "Approved reproductions"]
+  },
+  {
+    "document": "Textiles and Leather V2024.12.pdf",
+    "driveFileId": "1zDcOV73scv_yWvE3gSmZxC2FxnPwQAq1",
+    "textExtractionStatus": "text",
+    "verifiedItems": [
+      { "category": "material", "part": "softEquipment", "subtype": "textiles", "label": "Textiles", "confidence": "pdf-text-toc" },
+      { "category": "material", "part": "softEquipment", "subtype": "leather", "label": "Leather", "confidence": "pdf-text-toc" }
+    ],
+    "ruleSectionsFound": ["Importance of aesthetics", "Textiles and leather", "Requirements", "Historical sources and datation", "Specific requirements", "Approved reproductions", "Denied reproductions"]
+  },
+  {
+    "document": "Armors and weapons Aesthetics and Decoration V2024.12.pdf",
+    "textExtractionStatus": "text",
+    "verifiedItems": [
+      { "category": "authenticity", "part": "decoration", "subtype": "mattePolish", "label": "Matte polish", "confidence": "pdf-text-toc" },
+      { "category": "authenticity", "part": "decoration", "subtype": "satinPolish", "label": "Satin polish", "confidence": "pdf-text-toc" },
+      { "category": "authenticity", "part": "decoration", "subtype": "mirrorPolish", "label": "Mirror polish", "confidence": "pdf-text-toc" },
+      { "category": "authenticity", "part": "decoration", "subtype": "blackening", "label": "Blackening", "confidence": "pdf-text-toc" },
+      { "category": "authenticity", "part": "decoration", "subtype": "repairs", "label": "Repairs", "confidence": "pdf-text-toc" }
+    ],
+    "ruleSectionsFound": ["Definition and general requirements", "Painted armor", "Matte Polish", "Satin", "Mirror", "Blackening", "Decorations", "Repairs"]
+  },
+  {
+    "document": "Belt Flag V2024.12.docx.pdf",
+    "textExtractionStatus": "text",
+    "verifiedItems": [
+      { "category": "soft-kit", "part": "tabard", "subtype": "beltFlag", "label": "Belt flag", "confidence": "pdf-text-toc" }
+    ],
+    "ruleSectionsFound": ["Authenticity rules Belt Flag", "Definition and general requirements", "Examples of Approved reproductions"]
+  },
+  {
+    "document": "Eyebars V2024.12.docx.pdf",
+    "textExtractionStatus": "text",
+    "verifiedItems": [
+      { "part": "helmet", "subtype": "externallyRivetedEyeBars", "label": "Externally Riveted Eye Bars", "confidence": "pdf-text-toc" },
+      { "part": "helmet", "subtype": "buhurtOptimizedEyeBars", "label": "Buhurt Optimized Eye Bars", "confidence": "pdf-text-toc" }
+    ],
+    "ruleSectionsFound": ["Definition and General Requirements", "Eye bars description", "Externally Riveted Eye Bars", "Buhurt Optimized Eye Bars", "Specific Requirements", "Approved Reproductions", "Denied Reproductions"]
+  },
+  {
+    "document": "Helmet - Great Helms 2024.12.docx.pdf",
+    "textExtractionStatus": "text",
+    "verifiedItems": [
+      { "part": "helmet", "subtype": "greatHelm", "label": "Great Helm", "confidence": "pdf-text-toc" },
+      { "part": "helmet", "subtype": "greatHelmEyeSlots", "label": "Great Helm Eye Slots", "confidence": "pdf-text-toc" },
+      { "part": "neckProtection", "subtype": "greatHelmAventail", "label": "Great Helm Aventail", "confidence": "pdf-text-toc" }
+    ],
+    "ruleSectionsFound": ["Definition", "Historical Sources and Datation", "General Requirements", "Visor Requirements", "Eye Slots", "Aventail", "Approved Reproductions", "Denied Reproductions"]
+  },
+  {
+    "document": "Shields and Bucklers(1).pdf",
+    "textExtractionStatus": "text",
+    "verifiedItems": [
+      { "category": "shield", "part": "shield", "subtype": "heaterShield", "label": "Heater shield", "confidence": "pdf-text-toc" },
+      { "category": "shield", "part": "shield", "subtype": "punchShield", "label": "Punch shield", "confidence": "pdf-text-toc" },
+      { "category": "shield", "part": "shield", "subtype": "roundShield", "label": "Round shield", "confidence": "pdf-text-toc" },
+      { "category": "shield", "part": "shield", "subtype": "buckler", "label": "Buckler", "confidence": "pdf-text-toc" },
+      { "category": "shield", "part": "shield", "subtype": "shieldFastening", "label": "Shield fastening", "confidence": "pdf-text-toc" }
+    ],
+    "ruleSectionsFound": ["Definition and general requirements", "Wooden shields requirements", "Metal shields requirements", "Heater shield", "Punch shield", "Round shield", "Bucklers", "Fastening"]
+  },
+  {
+    "document": "Side-hinged visored Bascinets V2024.12.pdf",
+    "textExtractionStatus": "text",
+    "verifiedItems": [
+      { "part": "helmet", "subtype": "sugarloafSideHingedBascinet", "label": "Sugarloaf side-hinged bascinet", "confidence": "pdf-text-toc" },
+      { "part": "helmet", "subtype": "romanceSideHingedBascinet", "label": "Romance side-hinged bascinet", "confidence": "pdf-text-toc" },
+      { "part": "helmet", "subtype": "houndskullSideHingedBascinet", "label": "Houndskull/Hundsgugel side-hinged bascinet", "confidence": "pdf-text-toc" },
+      { "part": "helmet", "subtype": "greatBascinet", "label": "Great bascinet", "confidence": "pdf-text-toc" }
+    ],
+    "ruleSectionsFound": ["Definition", "Historical Sources and Datation", "Sugarloaf", "Transitional Style Helmets", "Romance", "Houndskull/Hundsgugel", "15th-century Style Helmets", "Requirements", "Approved Reproductions", "Denied Reproductions"]
+  },
+  {
+    "document": "Tabards V2024.12.pdf",
+    "textExtractionStatus": "text",
+    "verifiedItems": [
+      { "category": "soft-kit", "part": "tabard", "subtype": "sleevelessTabard", "label": "Sleeveless tabard", "confidence": "pdf-text-toc" },
+      { "category": "soft-kit", "part": "tabard", "subtype": "shortSleevesTabard", "label": "Short-sleeves tabard", "confidence": "pdf-text-toc" },
+      { "category": "soft-kit", "part": "tabard", "subtype": "longSleevesTabard", "label": "Long-sleeves tabard", "confidence": "pdf-text-toc" },
+      { "category": "soft-kit", "part": "tabard", "subtype": "tabardFastening", "label": "Tabard fastening system", "confidence": "pdf-text-toc" }
+    ],
+    "ruleSectionsFound": ["Types of tabards", "Material requirements", "Fastening systems requirements", "Colors requirements", "Symbols and decorations requirements", "Sleeveless tabard", "Short-sleeves tabard", "Long-Sleeves tabard", "Fastening systems"]
+  },
+  {
+    "document": "Wolf Ribs.pdf",
+    "textExtractionStatus": "text",
+    "verifiedItems": [
+      { "part": "helmet", "subtype": "wolfRibsHelmet", "label": "Wolf Ribs Helmet", "confidence": "pdf-text-toc" },
+      { "part": "helmet", "subtype": "wolfRibsVisor", "label": "Wolf Ribs visor", "confidence": "pdf-text-toc" },
+      { "part": "helmet", "subtype": "wolfRibsEyeSlots", "label": "Wolf Ribs eye-slots", "confidence": "pdf-text-toc" }
+    ],
+    "ruleSectionsFound": ["Definition", "Historical sources and datation", "General Requirements", "Visor Requirements", "Eye-slots", "Aventail", "Approved Reproductions", "Denied Reproductions"]
+  },
+  {
+    "document": "Technical Requirements for Weapons.pdf",
+    "driveFileId": "1ICO53D0wo8qG-Q7BW3IRphbpZ-3DQwsi",
+    "textExtractionStatus": "ocr-needed",
+    "verifiedItems": [],
+    "ruleSectionsFound": [],
+    "notes": "PDF downloaded but has no extractable text through pypdf. Requires OCR to extract weapon categories and measurements."
+  },
+  {
+    "document": "Shields_and_Bucklers V26.2.pdf",
+    "driveFileId": "1xKDITZ8tlqS8Ri74_L4qJVteOCrMfQ5h",
+    "textExtractionStatus": "ocr-needed",
+    "verifiedItems": [],
+    "ruleSectionsFound": [],
+    "notes": "PDF downloaded but has no extractable text through pypdf. Requires OCR to extract shield/buckler types and measurements."
+  }
+]

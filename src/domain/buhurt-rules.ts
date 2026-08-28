@@ -43,6 +43,7 @@ export type ProtectedZone = (typeof PROTECTED_ZONE)[keyof typeof PROTECTED_ZONE]
 export const INFRACTION_SEVERITY = {
   INFO: "info",
   MINOR: "minor",
+  MODERATE: "moderate",
   MAJOR: "major",
   CRITICAL: "critical",
   MANUAL_REVIEW: "manualReview",
@@ -53,8 +54,9 @@ export type InfractionSeverity =
 
 export const INFRACTION_SEVERITY_LABEL: Record<InfractionSeverity, string> = {
   [INFRACTION_SEVERITY.INFO]: "Información",
-  [INFRACTION_SEVERITY.MINOR]: "Falta leve / rebuke posible",
-  [INFRACTION_SEVERITY.MAJOR]: "Falta alta / warning posible",
+  [INFRACTION_SEVERITY.MINOR]: "Falta menor",
+  [INFRACTION_SEVERITY.MODERATE]: "Falta moderada",
+  [INFRACTION_SEVERITY.MAJOR]: "Falta mayor",
   [INFRACTION_SEVERITY.CRITICAL]: "Crítica / rechazo o descalificación posible",
   [INFRACTION_SEVERITY.MANUAL_REVIEW]: "Revisión manual",
 };

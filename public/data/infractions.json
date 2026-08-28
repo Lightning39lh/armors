@@ -12,6 +12,24 @@
     "description": "Las reglas públicas indican que la admisión requiere armas y armadura aprobadas, y que perder/romper protección de cabeza, articulaciones, manos, ingle o cuello puede sacar al peleador del combate."
   },
   {
+    "id": "minor-infraction",
+    "severity": "minor",
+    "title": "Minor infraction",
+    "description": "Severidad extraída del índice interno del PDF `Infraction classification and application.pdf`. Requiere mapear casos concretos con página/sección."
+  },
+  {
+    "id": "moderate-infraction",
+    "severity": "moderate",
+    "title": "Moderate infraction",
+    "description": "Severidad extraída del índice interno del PDF `Infraction classification and application.pdf`. Requiere mapear casos concretos con página/sección."
+  },
+  {
+    "id": "major-infraction",
+    "severity": "major",
+    "title": "Major infraction",
+    "description": "Severidad extraída del índice interno del PDF `Infraction classification and application.pdf`. Requiere mapear casos concretos con página/sección."
+  },
+  {
     "id": "format-not-allowed",
     "severity": "major",
     "title": "Pieza no marcada para la modalidad",

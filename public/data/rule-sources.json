@@ -39,5 +39,33 @@
     "url": "https://botn.info/rules/rules-for-buhurt-categories/",
     "documents": ["General Regulations", "Authorized Equipment", "Authorized Techniques", "Prohibited Techniques", "Management and Control of Battles"],
     "confidence": "public-text"
+  },
+  {
+    "id": "buhurt-authenticity-archives-drive",
+    "name": "Buhurt International Authenticity Archives",
+    "url": "https://drive.google.com/drive/folders/1amr_AsH10QsnCOMjFB8ebcpUyUUp66yW",
+    "documents": [
+      "Armors and weapons Aesthetics and Decoration V2024.12.pdf",
+      "Aventails.docx.pdf",
+      "Belt Flag V2024.12.docx.pdf",
+      "Eyebars V2024.12.docx.pdf",
+      "Greaves.pdf",
+      "Helmet - Great Helms 2024.12.docx.pdf",
+      "Infraction classification and application.pdf",
+      "Infractions Classification and Application.pdf",
+      "Klappvisors.pdf",
+      "Nasal and Breteche.pdf",
+      "Neck Protection.pdf",
+      "Perforated Visor Bascinets.pdf",
+      "Sabatons V2024.12.pdf",
+      "Shields and Bucklers.pdf",
+      "Shields_and_Bucklers V26.2.pdf",
+      "Side-hinged visored Bascinets V2024.12.pdf",
+      "Tabards V2024.12.pdf",
+      "Technical Requirements for Weapons.pdf",
+      "Textiles and Leather V2024.12.pdf",
+      "Wolf Ribs.pdf"
+    ],
+    "confidence": "official-drive-folder-listing"
   }
 ]
