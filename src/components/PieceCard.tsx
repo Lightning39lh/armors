@@ -1,4 +1,5 @@
 import type { ArmorPiece } from "../domain/armor-piece";
+import { COMBAT_FORMAT_LABEL } from "../domain/buhurt-rules";
 
 interface PieceCardProps {
   piece: ArmorPiece;
@@ -28,6 +29,11 @@ export function PieceCard({
         <p>
           {piece.startYear}–{piece.endYear}
         </p>
+        <div className="format-tags" aria-label="Modalidades permitidas">
+          {piece.allowedFormats.map((format) => (
+            <span key={format}>{COMBAT_FORMAT_LABEL[format]}</span>
+          ))}
+        </div>
         {!isCompatible ? (
           <div className="compatibility-warning">
             <strong>No compatible con la selección actual</strong>

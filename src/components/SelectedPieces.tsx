@@ -11,8 +11,17 @@ interface SelectedPiecesProps {
 }
 
 export function SelectedPieces({ selectedPieces, onRemove }: SelectedPiecesProps) {
+  const selectedCount = ARMOR_PART_ORDER.filter((part) => selectedPieces[part]).length;
+
   return (
     <section className="selected-list" aria-label="Piezas seleccionadas">
+      <div className="selected-list-header">
+        <div>
+          <p className="eyebrow">Kit actual</p>
+          <h3>{selectedCount} de {ARMOR_PART_ORDER.length} partes</h3>
+        </div>
+      </div>
+
       {ARMOR_PART_ORDER.map((part) => {
         const piece = selectedPieces[part];
 

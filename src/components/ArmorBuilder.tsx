@@ -59,6 +59,8 @@ export function ArmorBuilder() {
   );
 
   const selectedCount = Object.values(selectedPieces).filter(Boolean).length;
+  const totalPieces = pieces.length;
+  const compatibleCount = catalogPieces.filter((item) => item.isCompatible).length;
   const validationIssues = validateBuhurtSelection(
     selectedPieces,
     selectedFormat,
@@ -89,11 +91,30 @@ export function ArmorBuilder() {
   return (
     <main className="app-shell">
       <section className="hero-panel">
-        <h1>Constructor de armaduras históricas</h1>
-        <p>
-          Elegí una pieza y el sistema separa las partes compatibles por fecha,
-          región/cultura y modalidad de combate.
-        </p>
+        <div className="hero-copy">
+          <p className="eyebrow">Buhurt / HMB equipment planner</p>
+          <h1>Constructor de armaduras históricas</h1>
+          <p>
+            Armá un kit coherente por fecha, región/cultura, modalidad y zonas
+            de protección. La app separa lo compatible de lo dudoso para que la
+            revisión técnica sea más clara.
+          </p>
+        </div>
+
+        <div className="hero-stats" aria-label="Resumen del catálogo">
+          <div>
+            <strong>{totalPieces}</strong>
+            <span>piezas cargadas</span>
+          </div>
+          <div>
+            <strong>{selectedCount}</strong>
+            <span>seleccionadas</span>
+          </div>
+          <div>
+            <strong>{compatibleCount}</strong>
+            <span>compatibles ahora</span>
+          </div>
+        </div>
       </section>
 
       <section className="builder-layout">
