@@ -10,6 +10,7 @@ import {
 } from "../domain/buhurt-rules";
 import { getCatalogPieces } from "../domain/compatibility";
 import { getArmorPieces } from "../services/armor-repository";
+import { ArmorPieceDetails } from "./ArmorPieceDetails";
 import { CombatFormatSelector } from "./CombatFormatSelector";
 import { Mannequin } from "./Mannequin";
 import { PartSelector } from "./PartSelector";
@@ -134,6 +135,8 @@ export function ArmorBuilder() {
         </div>
         <ValidationReport issues={validationIssues} />
       </section>
+
+      <ArmorPieceDetails selectedPieces={selectedPieces} />
     </main>
   );
 }
