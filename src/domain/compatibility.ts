@@ -1,10 +1,12 @@
 import type { ArmorPart } from "./armor-part";
 import type { ArmorPiece, SelectedArmorPieces } from "./armor-piece";
+import { areHistoricalRegionsCompatible } from "./historical-region";
 
 export interface ArmorPieceAvailability {
   piece: ArmorPiece;
   isCompatible: boolean;
   isSelected: boolean;
+  incompatibleReasons: string[];
 }
 
 export function areYearRangesCompatible(a: ArmorPiece, b: ArmorPiece): boolean {
@@ -15,15 +17,36 @@ export function isCompatibleWithSelection(
   candidate: ArmorPiece,
   selectedPieces: SelectedArmorPieces,
 ): boolean {
-  const selectedValues = Object.values(selectedPieces);
+  return getCompatibilityIssues(candidate, selectedPieces).length === 0;
+}
 
-  return selectedValues.every((selectedPiece) => {
+export function getCompatibilityIssues(
+  candidate: ArmorPiece,
+  selectedPieces: SelectedArmorPieces,
+): string[] {
+  const selectedValues = Object.values(selectedPieces);
+  const issues: string[] = [];
+
+  selectedValues.forEach((selectedPiece) => {
     if (!selectedPiece || selectedPiece.part === candidate.part) {
-      return true;
+      return;
     }
 
-    return areYearRangesCompatible(candidate, selectedPiece);
+    if (!areYearRangesCompatible(candidate, selectedPiece)) {
+      issues.push(`No comparte rango histórico con ${selectedPiece.name}.`);
+    }
+
+    if (
+      !areHistoricalRegionsCompatible(
+        candidate.historicalRegions,
+        selectedPiece.historicalRegions,
+      )
+    ) {
+      issues.push(`No comparte región/cultura compatible con ${selectedPiece.name}.`);
+    }
   });
+
+  return issues;
 }
 
 export function getAvailablePieces(
@@ -50,9 +73,14 @@ export function getCatalogPieces(
 ): ArmorPieceAvailability[] {
   return pieces
     .filter((piece) => selectedPart === "all" || piece.part === selectedPart)
-    .map((piece) => ({
-      piece,
-      isCompatible: isCompatibleWithSelection(piece, selectedPieces),
-      isSelected: selectedPieces[piece.part]?.id === piece.id,
-    }));
+    .map((piece) => {
+      const incompatibleReasons = getCompatibilityIssues(piece, selectedPieces);
+
+      return {
+        piece,
+        isCompatible: incompatibleReasons.length === 0,
+        isSelected: selectedPieces[piece.part]?.id === piece.id,
+        incompatibleReasons,
+      };
+    });
 }

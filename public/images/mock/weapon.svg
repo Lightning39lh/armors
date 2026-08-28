@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 420" role="img" aria-label="Mock weapon">
+  <path d="M62 18h16l8 230-16 52-16-52 8-230Z" fill="#cfd3da"/>
+  <path d="M34 286h72v18H34z" fill="#8d6b3d"/>
+  <path d="M62 298h16v92H62z" fill="#6f5130"/>
+  <circle cx="70" cy="394" r="18" fill="#b08a4c"/>
+</svg>

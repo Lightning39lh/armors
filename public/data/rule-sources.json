@@ -1,0 +1,43 @@
+[
+  {
+    "id": "buhurt-international-rules-index",
+    "name": "Buhurt International Rules/Policies",
+    "url": "https://www.buhurtinternational.com/rules",
+    "documents": [
+      "Buhurt Rules",
+      "Duels Rules",
+      "Outrance Rules",
+      "Weapon/Shield Chart",
+      "Infractions",
+      "Armor Requirements",
+      "Weapon requirements",
+      "Tabards",
+      "Falchions",
+      "Aesthetics and Decorations",
+      "Textile and Leather",
+      "Shields & Bucklers",
+      "Gauntlets",
+      "Greaves",
+      "Sabatons",
+      "Neck Protection",
+      "Eyebars",
+      "Barbutes",
+      "Klappvisors",
+      "Perforated Visor Bascinets",
+      "Side-pivoting visored Bascinets",
+      "Aventails",
+      "Great Helms",
+      "Nasals & Breteches",
+      "Sallets",
+      "Wolfribs"
+    ],
+    "confidence": "official-index"
+  },
+  {
+    "id": "botn-buhurt-rules",
+    "name": "Rules for Buhurt Categories – Battle of the Nations / HMBIA",
+    "url": "https://botn.info/rules/rules-for-buhurt-categories/",
+    "documents": ["General Regulations", "Authorized Equipment", "Authorized Techniques", "Prohibited Techniques", "Management and Control of Battles"],
+    "confidence": "public-text"
+  }
+]

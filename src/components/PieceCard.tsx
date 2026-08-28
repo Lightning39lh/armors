@@ -5,6 +5,7 @@ interface PieceCardProps {
   label: string;
   isCompatible: boolean;
   isSelected: boolean;
+  incompatibleReasons: string[];
   onSelectPiece: (piece: ArmorPiece) => void;
 }
 
@@ -13,6 +14,7 @@ export function PieceCard({
   label,
   isCompatible,
   isSelected,
+  incompatibleReasons,
   onSelectPiece,
 }: PieceCardProps) {
   const isDisabled = !isCompatible || isSelected;
@@ -27,7 +29,14 @@ export function PieceCard({
           {piece.startYear}–{piece.endYear}
         </p>
         {!isCompatible ? (
-          <p className="compatibility-warning">No compatible con la selección actual</p>
+          <div className="compatibility-warning">
+            <strong>No compatible con la selección actual</strong>
+            <ul>
+              {incompatibleReasons.map((reason) => (
+                <li key={reason}>{reason}</li>
+              ))}
+            </ul>
+          </div>
         ) : null}
         {isSelected ? <p className="compatibility-warning">Ya está colocada</p> : null}
       </div>

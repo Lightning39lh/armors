@@ -33,11 +33,12 @@ export function PieceCatalog({ items, onSelectPiece }: PieceCatalogProps) {
       <div className="catalog-section">
         <h3>Disponibles</h3>
         {compatibleItems.length > 0 ? (
-          compatibleItems.map(({ piece, isCompatible, isSelected }) => (
+          compatibleItems.map(({ piece, isCompatible, isSelected, incompatibleReasons }) => (
             <PieceCard
               key={piece.id}
               isCompatible={isCompatible}
               isSelected={isSelected}
+              incompatibleReasons={incompatibleReasons}
               label={ARMOR_PART_LABEL[piece.part]}
               piece={piece}
               onSelectPiece={onSelectPiece}
@@ -53,11 +54,12 @@ export function PieceCatalog({ items, onSelectPiece }: PieceCatalogProps) {
       {incompatibleItems.length > 0 ? (
         <div className="catalog-section incompatible-section">
           <h3>No compatibles</h3>
-          {incompatibleItems.map(({ piece, isCompatible, isSelected }) => (
+          {incompatibleItems.map(({ piece, isCompatible, isSelected, incompatibleReasons }) => (
             <PieceCard
               key={piece.id}
               isCompatible={isCompatible}
               isSelected={isSelected}
+              incompatibleReasons={incompatibleReasons}
               label={ARMOR_PART_LABEL[piece.part]}
               piece={piece}
               onSelectPiece={onSelectPiece}

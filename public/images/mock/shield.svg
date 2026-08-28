@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 340" role="img" aria-label="Mock shield">
+  <path d="M130 24 220 62v92c0 82-35 132-90 162-55-30-90-80-90-162V62l90-38Z" fill="#b13f35"/>
+  <path d="M130 42v250" stroke="#e8d7a3" stroke-width="18"/>
+  <path d="M58 116h144" stroke="#e8d7a3" stroke-width="18"/>
+</svg>

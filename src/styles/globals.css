@@ -81,6 +81,14 @@ button:disabled {
   align-items: start;
 }
 
+.rules-layout {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.75fr) minmax(0, 1.25fr);
+  gap: 1rem;
+  margin-top: 1rem;
+  align-items: start;
+}
+
 .card {
   border: 1px solid rgba(228, 183, 110, 0.22);
   border-radius: 28px;
@@ -89,8 +97,19 @@ button:disabled {
 }
 
 .mannequin-panel,
-.catalog-panel {
+.catalog-panel,
+.rules-panel,
+.validation-report {
   padding: 1rem;
+}
+
+.format-selector h2 {
+  margin: 0 0 0.8rem;
+}
+
+.rules-note {
+  margin: 0;
+  color: #bfb4a6;
 }
 
 .panel-heading {
@@ -305,6 +324,15 @@ button:disabled {
   font-weight: 800;
 }
 
+.compatibility-warning ul {
+  margin: 0.25rem 0 0;
+  padding-left: 1rem;
+}
+
+.compatibility-warning li {
+  margin-top: 0.15rem;
+}
+
 .part-badge {
   color: #e4b76e;
   font-size: 0.72rem;
@@ -328,8 +356,47 @@ button:disabled {
   padding: 0.75rem;
 }
 
+.issue-list {
+  display: grid;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.issue-card {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  padding: 0.8rem;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.issue-card.fail {
+  border-color: rgba(255, 104, 104, 0.4);
+  background: rgba(255, 104, 104, 0.09);
+}
+
+.issue-card.manualReview,
+.issue-card.warning {
+  border-color: rgba(228, 183, 110, 0.35);
+  background: rgba(228, 183, 110, 0.08);
+}
+
+.issue-card h3 {
+  margin: 0.25rem 0;
+}
+
+.issue-card p {
+  margin: 0 0 0.45rem;
+  color: #bfb4a6;
+}
+
+.issue-card a {
+  color: #e4b76e;
+  font-weight: 800;
+}
+
 @media (max-width: 860px) {
-  .builder-layout {
+  .builder-layout,
+  .rules-layout {
     grid-template-columns: 1fr;
   }
 }

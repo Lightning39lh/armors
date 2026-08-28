@@ -1,0 +1,32 @@
+[
+  {
+    "id": "authenticity-manual-review",
+    "severity": "manualReview",
+    "title": "Revisión de autenticidad pendiente",
+    "description": "Los documentos oficiales separan autenticidad, seguridad, estética y formato. Hasta cargar páginas/secciones exactas, estas reglas se marcan para revisión manual."
+  },
+  {
+    "id": "missing-protective-equipment",
+    "severity": "critical",
+    "title": "Equipo protector incompleto",
+    "description": "Las reglas públicas indican que la admisión requiere armas y armadura aprobadas, y que perder/romper protección de cabeza, articulaciones, manos, ingle o cuello puede sacar al peleador del combate."
+  },
+  {
+    "id": "format-not-allowed",
+    "severity": "major",
+    "title": "Pieza no marcada para la modalidad",
+    "description": "Buhurt, duelos, outrance y otras categorías tienen documentos separados. La pieza debe validarse contra la modalidad elegida."
+  },
+  {
+    "id": "prohibited-target-zone-risk",
+    "severity": "major",
+    "title": "Riesgo por zona prohibida o mal protegida",
+    "description": "El texto público de HMB/BOTN lista zonas prohibidas como pies, parte posterior de rodilla, ingle, nuca/base del cráneo y acciones contra articulaciones."
+  },
+  {
+    "id": "weapon-safety-risk",
+    "severity": "critical",
+    "title": "Riesgo técnico de arma",
+    "description": "Armas, escudos, bucklers, falchions y polearms deben revisarse contra documentos técnicos y charts oficiales."
+  }
+]
