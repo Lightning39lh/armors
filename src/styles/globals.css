@@ -208,11 +208,6 @@ button:disabled {
   padding: clamp(0.85rem, 2vw, 1.15rem);
 }
 
-.mannequin-panel {
-  position: sticky;
-  top: 1rem;
-}
-
 .piece-details-report {
   margin-top: 1rem;
 }
@@ -557,10 +552,7 @@ button:disabled {
 .issue-list {
   display: grid;
   gap: 0.75rem;
-  max-height: 540px;
   margin-top: 0.75rem;
-  overflow: auto;
-  padding-right: 0.15rem;
 }
 
 .issue-card {
@@ -680,8 +672,9 @@ button:disabled {
     min-width: 0;
   }
 
-  .mannequin-panel {
-    position: static;
+  .builder-layout,
+  .rules-layout {
+    gap: 0.85rem;
   }
 }
 
@@ -721,8 +714,11 @@ button:disabled {
     margin-right: -0.9rem;
     margin-left: -0.15rem;
     overflow-x: auto;
+    overflow-y: hidden;
+    overscroll-behavior-x: contain;
     padding: 0.1rem 0.9rem 0.35rem 0.15rem;
     scroll-snap-type: x proximity;
+    -webkit-overflow-scrolling: touch;
   }
 
   .part-chip {
@@ -731,7 +727,8 @@ button:disabled {
   }
 
   .mannequin {
-    width: min(310px, 100%);
+    width: min(280px, 100%);
+    margin-bottom: 0.75rem;
   }
 
   .piece-card {
@@ -750,6 +747,14 @@ button:disabled {
 
   .selected-row {
     gap: 0.65rem;
+  }
+
+  .mannequin-panel,
+  .catalog-panel,
+  .rules-panel,
+  .validation-report,
+  .piece-details-report {
+    padding: 0.78rem;
   }
 
   .piece-detail-grid {
