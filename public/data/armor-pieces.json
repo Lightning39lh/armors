@@ -4,847 +4,2124 @@
     "name": "Great Helm 1320",
     "part": "helmet",
     "subtype": "greatHelm",
-    "historicalRegions": ["westernEurope", "france", "england", "holyRomanEmpire"],
+    "historicalRegions": [
+      "westernEurope",
+      "france",
+      "england",
+      "holyRomanEmpire"
+    ],
     "cultureGroup": "westernEuropean",
     "startYear": 1320,
     "endYear": 1400,
-    "thumbnail": "/images/mock/helmet.svg",
-    "image": "/images/mock/helmet.svg",
-    "allowedFormats": ["buhurt", "massBattle"],
-    "protectedZones": ["head", "face"],
-    "requires": ["neckProtection"],
-    "reviewFlags": ["helmet-specific-requirements", "visibility-and-breathing", "edge-safety"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Helmet requirements include Great Helms and neck protection documents." }]
+    "thumbnail": "/images/pieces/helmet-great-helm-1320.svg",
+    "image": "/images/pieces/helmet-great-helm-1320.svg",
+    "allowedFormats": [
+      "buhurt",
+      "massBattle"
+    ],
+    "protectedZones": [
+      "head",
+      "face"
+    ],
+    "requires": [
+      "neckProtection"
+    ],
+    "reviewFlags": [
+      "helmet-specific-requirements",
+      "visibility-and-breathing",
+      "edge-safety"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Helmet requirements include Great Helms and neck protection documents."
+      }
+    ]
   },
   {
     "id": "helmet-bascinet-klappvisor-1370",
     "name": "Klappvisor Bascinet",
     "part": "helmet",
     "subtype": "klappvisorBascinet",
-    "historicalRegions": ["centralEurope", "holyRomanEmpire", "westernEurope"],
+    "historicalRegions": [
+      "centralEurope",
+      "holyRomanEmpire",
+      "westernEurope"
+    ],
     "cultureGroup": "centralWesternEuropean",
     "startYear": 1370,
     "endYear": 1420,
-    "thumbnail": "/images/mock/helmet.svg",
-    "image": "/images/mock/helmet.svg",
-    "allowedFormats": ["buhurt", "duel", "outrance", "massBattle"],
-    "protectedZones": ["head", "face"],
-    "requires": ["aventailOrNeckProtection"],
-    "reviewFlags": ["klappvisor-requirements", "visor-locking", "perforation-or-opening-safety"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Helmet requirements include Klappvisors, Bascinets and Aventails." }]
+    "thumbnail": "/images/pieces/helmet-bascinet-klappvisor-1370.svg",
+    "image": "/images/pieces/helmet-bascinet-klappvisor-1370.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "outrance",
+      "massBattle"
+    ],
+    "protectedZones": [
+      "head",
+      "face"
+    ],
+    "requires": [
+      "aventailOrNeckProtection"
+    ],
+    "reviewFlags": [
+      "klappvisor-requirements",
+      "visor-locking",
+      "perforation-or-opening-safety"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Helmet requirements include Klappvisors, Bascinets and Aventails."
+      }
+    ]
   },
   {
     "id": "helmet-sallet-1450",
     "name": "Sallet 1450",
     "part": "helmet",
     "subtype": "sallet",
-    "historicalRegions": ["centralEurope", "holyRomanEmpire", "italianStates"],
+    "historicalRegions": [
+      "centralEurope",
+      "holyRomanEmpire",
+      "italianStates"
+    ],
     "cultureGroup": "lateMedievalEuropean",
     "startYear": 1450,
     "endYear": 1500,
-    "thumbnail": "/images/mock/helmet.svg",
-    "image": "/images/mock/helmet.svg",
-    "allowedFormats": ["buhurt", "duel", "fullPlateHarness"],
-    "protectedZones": ["head", "face"],
-    "requires": ["neckProtection", "throatProtection"],
-    "reviewFlags": ["sallet-requirements", "face-opening", "neck-gap"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Helmet requirements include Sallets." }]
+    "thumbnail": "/images/pieces/helmet-sallet-1450.svg",
+    "image": "/images/pieces/helmet-sallet-1450.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "fullPlateHarness"
+    ],
+    "protectedZones": [
+      "head",
+      "face"
+    ],
+    "requires": [
+      "neckProtection",
+      "throatProtection"
+    ],
+    "reviewFlags": [
+      "sallet-requirements",
+      "face-opening",
+      "neck-gap"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Helmet requirements include Sallets."
+      }
+    ]
   },
   {
     "id": "helmet-wolfrib-1390",
     "name": "Wolfrib Helmet",
     "part": "helmet",
     "subtype": "wolfrib",
-    "historicalRegions": ["easternEurope", "polandLithuania"],
+    "historicalRegions": [
+      "easternEurope",
+      "polandLithuania"
+    ],
     "cultureGroup": "easternEuropean",
     "startYear": 1390,
     "endYear": 1450,
-    "thumbnail": "/images/mock/helmet.svg",
-    "image": "/images/mock/helmet.svg",
-    "allowedFormats": ["buhurt", "massBattle"],
-    "protectedZones": ["head", "face"],
-    "requires": ["neckProtection"],
-    "reviewFlags": ["wolfrib-requirements", "bar-spacing", "face-opening"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Helmet requirements include Wolfribs." }]
+    "thumbnail": "/images/pieces/helmet-wolfrib-1390.svg",
+    "image": "/images/pieces/helmet-wolfrib-1390.svg",
+    "allowedFormats": [
+      "buhurt",
+      "massBattle"
+    ],
+    "protectedZones": [
+      "head",
+      "face"
+    ],
+    "requires": [
+      "neckProtection"
+    ],
+    "reviewFlags": [
+      "wolfrib-requirements",
+      "bar-spacing",
+      "face-opening"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Helmet requirements include Wolfribs."
+      }
+    ]
   },
-
   {
     "id": "neck-aventail-1370",
     "name": "Mail Aventail",
     "part": "neckProtection",
-    "subtype": "aventail",
-    "historicalRegions": ["westernEurope", "centralEurope", "easternEurope"],
+    "subtype": "chainmailAventail",
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "easternEurope"
+    ],
     "cultureGroup": "panEuropean",
     "startYear": 1320,
     "endYear": 1450,
-    "thumbnail": "/images/mock/neck.svg",
-    "image": "/images/mock/neck.svg",
-    "allowedFormats": ["buhurt", "duel", "outrance", "massBattle"],
-    "protectedZones": ["neck", "throat"],
+    "thumbnail": "/images/pieces/neck-aventail-1370.svg",
+    "image": "/images/pieces/neck-aventail-1370.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "outrance",
+      "massBattle"
+    ],
+    "protectedZones": [
+      "neck",
+      "throat"
+    ],
     "requires": [],
-    "reviewFlags": ["aventail-requirements", "coverage-overlap"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Helmet requirements include Aventails; armor requirements include Neck Protection." }]
+    "reviewFlags": [
+      "aventail-requirements",
+      "coverage-overlap"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Helmet requirements include Aventails; armor requirements include Neck Protection."
+      }
+    ]
   },
   {
     "id": "neck-plate-gorget-1450",
     "name": "Plate Gorget",
     "part": "neckProtection",
-    "subtype": "plateGorget",
-    "historicalRegions": ["centralEurope", "westernEurope", "italianStates"],
+    "subtype": "gorget",
+    "historicalRegions": [
+      "centralEurope",
+      "westernEurope",
+      "italianStates"
+    ],
     "cultureGroup": "lateMedievalEuropean",
     "startYear": 1450,
     "endYear": 1550,
-    "thumbnail": "/images/mock/neck.svg",
-    "image": "/images/mock/neck.svg",
-    "allowedFormats": ["buhurt", "duel", "fullPlateHarness"],
-    "protectedZones": ["neck", "throat"],
+    "thumbnail": "/images/pieces/neck-plate-gorget-1450.svg",
+    "image": "/images/pieces/neck-plate-gorget-1450.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "fullPlateHarness"
+    ],
+    "protectedZones": [
+      "neck",
+      "throat"
+    ],
     "requires": [],
-    "reviewFlags": ["neck-protection-requirements", "helmet-overlap"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Armor requirements include Neck Protection." }]
+    "reviewFlags": [
+      "neck-protection-requirements",
+      "helmet-overlap"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Armor requirements include Neck Protection."
+      }
+    ]
   },
-
   {
     "id": "chest-brigandine-1360",
     "name": "Brigandine Torso Armor",
     "part": "chest",
     "subtype": "brigandine",
-    "historicalRegions": ["westernEurope", "centralEurope", "italianStates"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "italianStates"
+    ],
     "cultureGroup": "lateMedievalEuropean",
     "startYear": 1360,
     "endYear": 1450,
-    "thumbnail": "/images/mock/chest.svg",
-    "image": "/images/mock/chest.svg",
-    "allowedFormats": ["buhurt", "duel", "outrance", "massBattle"],
-    "protectedZones": ["torso", "spine", "shoulders"],
-    "requires": ["underArmorPadding"],
-    "reviewFlags": ["armor-requirements", "rivets-and-plates", "textile-and-leather"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "General Armor Requirements plus Textile and Leather documents apply." }]
+    "thumbnail": "/images/pieces/chest-brigandine-1360.svg",
+    "image": "/images/pieces/chest-brigandine-1360.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "outrance",
+      "massBattle"
+    ],
+    "protectedZones": [
+      "torso",
+      "spine",
+      "shoulders"
+    ],
+    "requires": [
+      "underArmorPadding"
+    ],
+    "reviewFlags": [
+      "armor-requirements",
+      "rivets-and-plates",
+      "textile-and-leather"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "General Armor Requirements plus Textile and Leather documents apply."
+      }
+    ]
   },
   {
     "id": "chest-cuirass-1450",
     "name": "Plate Cuirass",
     "part": "chest",
     "subtype": "plateCuirass",
-    "historicalRegions": ["centralEurope", "italianStates", "holyRomanEmpire"],
+    "historicalRegions": [
+      "centralEurope",
+      "italianStates",
+      "holyRomanEmpire"
+    ],
     "cultureGroup": "lateMedievalEuropean",
     "startYear": 1450,
     "endYear": 1520,
-    "thumbnail": "/images/mock/chest.svg",
-    "image": "/images/mock/chest.svg",
-    "allowedFormats": ["buhurt", "duel", "fullPlateHarness"],
-    "protectedZones": ["torso", "spine"],
-    "requires": ["underArmorPadding"],
-    "reviewFlags": ["armor-requirements", "edge-safety", "strap-safety"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "General Armor Requirements document applies." }]
+    "thumbnail": "/images/pieces/chest-cuirass-1450.svg",
+    "image": "/images/pieces/chest-cuirass-1450.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "fullPlateHarness"
+    ],
+    "protectedZones": [
+      "torso",
+      "spine"
+    ],
+    "requires": [
+      "underArmorPadding"
+    ],
+    "reviewFlags": [
+      "armor-requirements",
+      "edge-safety",
+      "strap-safety"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "General Armor Requirements document applies."
+      }
+    ]
   },
   {
     "id": "chest-late-display-1600",
     "name": "Late Display Cuirass",
     "part": "chest",
     "subtype": "displayCuirass",
-    "historicalRegions": ["westernEurope", "centralEurope"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope"
+    ],
     "cultureGroup": "earlyModernEuropean",
     "startYear": 1600,
     "endYear": 1650,
-    "thumbnail": "/images/mock/chest.svg",
-    "image": "/images/mock/chest.svg",
-    "allowedFormats": ["fullPlateHarness"],
-    "protectedZones": ["torso"],
+    "thumbnail": "/images/pieces/chest-late-display-1600.svg",
+    "image": "/images/pieces/chest-late-display-1600.svg",
+    "allowedFormats": [
+      "fullPlateHarness"
+    ],
+    "protectedZones": [
+      "torso"
+    ],
     "requires": [],
-    "reviewFlags": ["period-mismatch-risk", "combat-readiness"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Requires manual authenticity and safety review before combat use." }]
+    "reviewFlags": [
+      "period-mismatch-risk",
+      "combat-readiness"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Requires manual authenticity and safety review before combat use."
+      }
+    ]
   },
-
   {
     "id": "arms-plate-harness-1400",
     "name": "Plate Arm Harness",
     "part": "arms",
     "subtype": "armHarness",
-    "historicalRegions": ["centralEurope", "westernEurope", "italianStates"],
+    "historicalRegions": [
+      "centralEurope",
+      "westernEurope",
+      "italianStates"
+    ],
     "cultureGroup": "lateMedievalEuropean",
     "startYear": 1400,
     "endYear": 1500,
-    "thumbnail": "/images/mock/arms.svg",
-    "image": "/images/mock/arms.svg",
-    "allowedFormats": ["buhurt", "duel", "outrance", "fullPlateHarness"],
-    "protectedZones": ["shoulders", "elbows", "forearms"],
-    "requires": ["gloves"],
-    "reviewFlags": ["joint-protection", "edge-safety"],
-    "sources": [{ "name": "Battle of the Nations / HMBIA", "url": "https://botn.info/rules/rules-for-buhurt-categories/", "note": "Rules mention loss/break of joint protection as removal condition." }]
+    "thumbnail": "/images/pieces/arms-plate-harness-1400.svg",
+    "image": "/images/pieces/arms-plate-harness-1400.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "outrance",
+      "fullPlateHarness"
+    ],
+    "protectedZones": [
+      "shoulders",
+      "elbows",
+      "forearms"
+    ],
+    "requires": [
+      "gloves"
+    ],
+    "reviewFlags": [
+      "joint-protection",
+      "edge-safety"
+    ],
+    "sources": [
+      {
+        "name": "Battle of the Nations / HMBIA",
+        "url": "https://botn.info/rules/rules-for-buhurt-categories/",
+        "note": "Rules mention loss/break of joint protection as removal condition."
+      }
+    ]
   },
   {
     "id": "arms-mail-sleeves-1320",
     "name": "Mail Sleeves",
     "part": "arms",
     "subtype": "mailSleeves",
-    "historicalRegions": ["westernEurope", "centralEurope", "easternEurope", "byzantineSphere"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "easternEurope",
+      "byzantineSphere"
+    ],
     "cultureGroup": "panEuropean",
     "startYear": 1320,
     "endYear": 1400,
-    "thumbnail": "/images/mock/arms.svg",
-    "image": "/images/mock/arms.svg",
-    "allowedFormats": ["buhurt", "massBattle"],
-    "protectedZones": ["forearms"],
-    "requires": ["elbowProtection", "gloves"],
-    "reviewFlags": ["insufficient-joint-coverage-risk"],
-    "sources": [{ "name": "Battle of the Nations / HMBIA", "url": "https://botn.info/rules/rules-for-buhurt-categories/", "note": "Accepted/prohibited zones make joint protection relevant." }]
+    "thumbnail": "/images/pieces/arms-mail-sleeves-1320.svg",
+    "image": "/images/pieces/arms-mail-sleeves-1320.svg",
+    "allowedFormats": [
+      "buhurt",
+      "massBattle"
+    ],
+    "protectedZones": [
+      "forearms"
+    ],
+    "requires": [
+      "elbowProtection",
+      "gloves"
+    ],
+    "reviewFlags": [
+      "insufficient-joint-coverage-risk"
+    ],
+    "sources": [
+      {
+        "name": "Battle of the Nations / HMBIA",
+        "url": "https://botn.info/rules/rules-for-buhurt-categories/",
+        "note": "Accepted/prohibited zones make joint protection relevant."
+      }
+    ]
   },
-
   {
     "id": "gloves-hourglass-gauntlets-1380",
     "name": "Hourglass Gauntlets",
     "part": "gloves",
     "subtype": "hourglassGauntlets",
-    "historicalRegions": ["westernEurope", "centralEurope", "holyRomanEmpire"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "holyRomanEmpire"
+    ],
     "cultureGroup": "centralWesternEuropean",
     "startYear": 1380,
     "endYear": 1450,
-    "thumbnail": "/images/mock/gloves.svg",
-    "image": "/images/mock/gloves.svg",
-    "allowedFormats": ["buhurt", "duel", "outrance", "massBattle"],
-    "protectedZones": ["hands"],
+    "thumbnail": "/images/pieces/gloves-hourglass-gauntlets-1380.svg",
+    "image": "/images/pieces/gloves-hourglass-gauntlets-1380.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "outrance",
+      "massBattle"
+    ],
+    "protectedZones": [
+      "hands"
+    ],
     "requires": [],
-    "reviewFlags": ["gauntlets-requirements", "finger-protection"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Armor requirements include Gauntlets." }]
+    "reviewFlags": [
+      "gauntlets-requirements",
+      "finger-protection"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Armor requirements include Gauntlets."
+      }
+    ]
   },
   {
     "id": "gloves-mitten-gauntlets-1450",
     "name": "Mitten Gauntlets",
     "part": "gloves",
     "subtype": "mittenGauntlets",
-    "historicalRegions": ["centralEurope", "westernEurope", "italianStates"],
+    "historicalRegions": [
+      "centralEurope",
+      "westernEurope",
+      "italianStates"
+    ],
     "cultureGroup": "lateMedievalEuropean",
     "startYear": 1450,
     "endYear": 1520,
-    "thumbnail": "/images/mock/gloves.svg",
-    "image": "/images/mock/gloves.svg",
-    "allowedFormats": ["buhurt", "duel", "fullPlateHarness"],
-    "protectedZones": ["hands"],
+    "thumbnail": "/images/pieces/gloves-mitten-gauntlets-1450.svg",
+    "image": "/images/pieces/gloves-mitten-gauntlets-1450.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "fullPlateHarness"
+    ],
+    "protectedZones": [
+      "hands"
+    ],
     "requires": [],
-    "reviewFlags": ["gauntlets-requirements", "weapon-grip-clearance"],
-    "sources": [{ "name": "Battle of the Nations / HMBIA", "url": "https://botn.info/rules/rules-for-buhurt-categories/", "note": "Rules mention combat mitten/glove relation to face punches and hilt/fist gap." }]
+    "reviewFlags": [
+      "gauntlets-requirements",
+      "weapon-grip-clearance"
+    ],
+    "sources": [
+      {
+        "name": "Battle of the Nations / HMBIA",
+        "url": "https://botn.info/rules/rules-for-buhurt-categories/",
+        "note": "Rules mention combat mitten/glove relation to face punches and hilt/fist gap."
+      }
+    ]
   },
-
   {
     "id": "legs-greaves-1400",
     "name": "Greaves and Poleyns",
     "part": "legs",
     "subtype": "greavesPoleyns",
-    "historicalRegions": ["centralEurope", "westernEurope", "italianStates"],
+    "historicalRegions": [
+      "centralEurope",
+      "westernEurope",
+      "italianStates"
+    ],
     "cultureGroup": "lateMedievalEuropean",
     "startYear": 1400,
     "endYear": 1500,
-    "thumbnail": "/images/mock/legs.svg",
-    "image": "/images/mock/legs.svg",
-    "allowedFormats": ["buhurt", "duel", "outrance", "fullPlateHarness"],
-    "protectedZones": ["knees", "shins"],
-    "requires": ["boots"],
-    "reviewFlags": ["greaves-requirements", "knee-joint-protection"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Armor requirements include Greaves." }]
+    "thumbnail": "/images/pieces/legs-greaves-1400.svg",
+    "image": "/images/pieces/legs-greaves-1400.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "outrance",
+      "fullPlateHarness"
+    ],
+    "protectedZones": [
+      "knees",
+      "shins"
+    ],
+    "requires": [
+      "boots"
+    ],
+    "reviewFlags": [
+      "greaves-requirements",
+      "knee-joint-protection"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Armor requirements include Greaves."
+      }
+    ]
   },
   {
     "id": "legs-mail-chausses-1320",
     "name": "Mail Chausses",
     "part": "legs",
     "subtype": "mailChausses",
-    "historicalRegions": ["westernEurope", "centralEurope", "easternEurope"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "easternEurope"
+    ],
     "cultureGroup": "panEuropean",
     "startYear": 1320,
     "endYear": 1400,
-    "thumbnail": "/images/mock/legs.svg",
-    "image": "/images/mock/legs.svg",
-    "allowedFormats": ["buhurt", "massBattle"],
-    "protectedZones": ["shins"],
-    "requires": ["kneeProtection", "boots"],
-    "reviewFlags": ["insufficient-knee-coverage-risk"],
-    "sources": [{ "name": "Battle of the Nations / HMBIA", "url": "https://botn.info/rules/rules-for-buhurt-categories/", "note": "Rules identify back of knee/knee joint as prohibited target/action area." }]
+    "thumbnail": "/images/pieces/legs-mail-chausses-1320.svg",
+    "image": "/images/pieces/legs-mail-chausses-1320.svg",
+    "allowedFormats": [
+      "buhurt",
+      "massBattle"
+    ],
+    "protectedZones": [
+      "shins"
+    ],
+    "requires": [
+      "kneeProtection",
+      "boots"
+    ],
+    "reviewFlags": [
+      "insufficient-knee-coverage-risk"
+    ],
+    "sources": [
+      {
+        "name": "Battle of the Nations / HMBIA",
+        "url": "https://botn.info/rules/rules-for-buhurt-categories/",
+        "note": "Rules identify back of knee/knee joint as prohibited target/action area."
+      }
+    ]
   },
-
   {
     "id": "boots-sabatons-1400",
     "name": "Plate Sabatons",
     "part": "boots",
-    "subtype": "sabatons",
-    "historicalRegions": ["centralEurope", "westernEurope", "italianStates"],
+    "subtype": "plateSabatons",
+    "historicalRegions": [
+      "centralEurope",
+      "westernEurope",
+      "italianStates"
+    ],
     "cultureGroup": "lateMedievalEuropean",
     "startYear": 1400,
     "endYear": 1500,
-    "thumbnail": "/images/mock/boots.svg",
-    "image": "/images/mock/boots.svg",
-    "allowedFormats": ["buhurt", "duel", "outrance", "fullPlateHarness"],
-    "protectedZones": ["feet"],
+    "thumbnail": "/images/pieces/boots-sabatons-1400.svg",
+    "image": "/images/pieces/boots-sabatons-1400.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "outrance",
+      "fullPlateHarness"
+    ],
+    "protectedZones": [
+      "feet"
+    ],
     "requires": [],
-    "reviewFlags": ["sabatons-requirements"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Armor requirements include Sabatons." }]
+    "reviewFlags": [
+      "sabatons-requirements"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Armor requirements include Sabatons."
+      }
+    ]
   },
   {
     "id": "boots-leather-boots-1350",
     "name": "Reinforced Leather Boots",
     "part": "boots",
     "subtype": "reinforcedLeatherBoots",
-    "historicalRegions": ["westernEurope", "centralEurope", "northernEurope"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "northernEurope"
+    ],
     "cultureGroup": "panEuropean",
     "startYear": 1350,
     "endYear": 1450,
-    "thumbnail": "/images/mock/boots.svg",
-    "image": "/images/mock/boots.svg",
-    "allowedFormats": ["massBattle"],
+    "thumbnail": "/images/pieces/boots-leather-boots-1350.svg",
+    "image": "/images/pieces/boots-leather-boots-1350.svg",
+    "allowedFormats": [
+      "massBattle"
+    ],
     "protectedZones": [],
-    "requires": ["sabatonsOrFootProtection"],
-    "reviewFlags": ["feet-coverage-risk", "textile-and-leather"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Textile and Leather plus Sabatons documents should be checked." }]
+    "requires": [
+      "sabatonsOrFootProtection"
+    ],
+    "reviewFlags": [
+      "feet-coverage-risk",
+      "textile-and-leather"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Textile and Leather plus Sabatons documents should be checked."
+      }
+    ]
   },
-
   {
     "id": "weapon-one-handed-sword-1380",
     "name": "One-handed Sword",
     "part": "weapon",
     "subtype": "oneHandedSword",
-    "historicalRegions": ["westernEurope", "centralEurope", "easternEurope", "southernEurope", "northernEurope"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "easternEurope",
+      "southernEurope",
+      "northernEurope"
+    ],
     "cultureGroup": "panEuropean",
     "startYear": 1350,
     "endYear": 1500,
-    "thumbnail": "/images/mock/weapon.svg",
-    "image": "/images/mock/weapon.svg",
-    "allowedFormats": ["buhurt", "duel", "massBattle"],
+    "thumbnail": "/images/pieces/weapon-one-handed-sword-1380.svg",
+    "image": "/images/pieces/weapon-one-handed-sword-1380.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "massBattle"
+    ],
     "protectedZones": [],
     "requires": [],
-    "reviewFlags": ["weapon-requirements", "edge-and-tip-safety"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Marshal documents include Weapon/Shield Chart and Weapon requirements." }]
+    "reviewFlags": [
+      "weapon-requirements",
+      "edge-and-tip-safety"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Marshal documents include Weapon/Shield Chart and Weapon requirements."
+      }
+    ]
   },
   {
     "id": "weapon-falchion-1400",
     "name": "Falchion",
     "part": "weapon",
     "subtype": "falchion",
-    "historicalRegions": ["westernEurope", "centralEurope", "italianStates"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "italianStates"
+    ],
     "cultureGroup": "lateMedievalEuropean",
     "startYear": 1380,
     "endYear": 1500,
-    "thumbnail": "/images/mock/weapon.svg",
-    "image": "/images/mock/weapon.svg",
-    "allowedFormats": ["buhurt", "duel", "massBattle"],
+    "thumbnail": "/images/pieces/weapon-falchion-1400.svg",
+    "image": "/images/pieces/weapon-falchion-1400.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "massBattle"
+    ],
     "protectedZones": [],
     "requires": [],
-    "reviewFlags": ["falchion-requirements", "weapon-chart"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Authenticity section has a dedicated Falchions document." }]
+    "reviewFlags": [
+      "falchion-requirements",
+      "weapon-chart"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Authenticity section has a dedicated Falchions document."
+      }
+    ]
   },
   {
     "id": "weapon-polearm-1450",
     "name": "Two-handed Polearm",
     "part": "weapon",
     "subtype": "polearm",
-    "historicalRegions": ["westernEurope", "centralEurope", "easternEurope", "southernEurope"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "easternEurope",
+      "southernEurope"
+    ],
     "cultureGroup": "panEuropean",
     "startYear": 1400,
     "endYear": 1550,
-    "thumbnail": "/images/mock/weapon.svg",
-    "image": "/images/mock/weapon.svg",
-    "allowedFormats": ["buhurt", "massBattle"],
+    "thumbnail": "/images/pieces/weapon-polearm-1450.svg",
+    "image": "/images/pieces/weapon-polearm-1450.svg",
+    "allowedFormats": [
+      "buhurt",
+      "massBattle"
+    ],
     "protectedZones": [],
     "requires": [],
-    "reviewFlags": ["weapon-chart", "polearm-grip-rule", "edge-and-tip-safety"],
-    "sources": [{ "name": "Battle of the Nations / HMBIA", "url": "https://botn.info/rules/rules-for-buhurt-categories/", "note": "Visible text mentions two-handed pole weapons must be held at least with one hand during combat." }]
+    "reviewFlags": [
+      "weapon-chart",
+      "polearm-grip-rule",
+      "edge-and-tip-safety"
+    ],
+    "sources": [
+      {
+        "name": "Battle of the Nations / HMBIA",
+        "url": "https://botn.info/rules/rules-for-buhurt-categories/",
+        "note": "Visible text mentions two-handed pole weapons must be held at least with one hand during combat."
+      }
+    ]
   },
-
   {
     "id": "shield-heater-1380",
     "name": "Heater Shield",
     "part": "shield",
     "subtype": "heaterShield",
-    "historicalRegions": ["westernEurope", "centralEurope", "england", "france", "holyRomanEmpire"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "england",
+      "france",
+      "holyRomanEmpire"
+    ],
     "cultureGroup": "westernEuropean",
     "startYear": 1350,
     "endYear": 1450,
-    "thumbnail": "/images/mock/shield.svg",
-    "image": "/images/mock/shield.svg",
-    "allowedFormats": ["buhurt", "duel", "massBattle"],
+    "thumbnail": "/images/pieces/shield-heater-1380.svg",
+    "image": "/images/pieces/shield-heater-1380.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "massBattle"
+    ],
     "protectedZones": [],
     "requires": [],
-    "reviewFlags": ["shields-and-bucklers", "weapon-shield-chart"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Authenticity section includes Shields & Bucklers and Marshal section includes Weapon/Shield Chart." }]
+    "reviewFlags": [
+      "shields-and-bucklers",
+      "weapon-shield-chart"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Authenticity section includes Shields & Bucklers and Marshal section includes Weapon/Shield Chart."
+      }
+    ]
   },
   {
     "id": "shield-buckler-1450",
     "name": "Buckler",
     "part": "shield",
     "subtype": "buckler",
-    "historicalRegions": ["westernEurope", "centralEurope", "italianStates", "iberia"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "italianStates",
+      "iberia"
+    ],
     "cultureGroup": "lateMedievalEuropean",
     "startYear": 1400,
     "endYear": 1550,
-    "thumbnail": "/images/mock/shield.svg",
-    "image": "/images/mock/shield.svg",
-    "allowedFormats": ["duel"],
+    "thumbnail": "/images/pieces/shield-buckler-1450.svg",
+    "image": "/images/pieces/shield-buckler-1450.svg",
+    "allowedFormats": [
+      "duel"
+    ],
     "protectedZones": [],
     "requires": [],
-    "reviewFlags": ["buckler-requirements", "duel-category-only-risk"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Shields & Bucklers should be checked against format-specific rules." }]
+    "reviewFlags": [
+      "buckler-requirements",
+      "duel-category-only-risk"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Shields & Bucklers should be checked against format-specific rules."
+      }
+    ]
   },
-
   {
     "id": "tabard-team-heraldry-1400",
     "name": "Team Tabard",
     "part": "tabard",
     "subtype": "tabard",
-    "historicalRegions": ["westernEurope", "centralEurope", "england", "france", "holyRomanEmpire"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "england",
+      "france",
+      "holyRomanEmpire"
+    ],
     "cultureGroup": "westernEuropeanHeraldry",
     "startYear": 1300,
     "endYear": 1550,
-    "thumbnail": "/images/mock/tabard.svg",
-    "image": "/images/mock/tabard.svg",
-    "allowedFormats": ["buhurt", "duel", "outrance", "massBattle"],
+    "thumbnail": "/images/pieces/tabard-team-heraldry-1400.svg",
+    "image": "/images/pieces/tabard-team-heraldry-1400.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "outrance",
+      "massBattle"
+    ],
     "protectedZones": [],
     "requires": [],
-    "reviewFlags": ["tabards", "aesthetics-and-decorations", "team-heraldry"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Authenticity section includes Tabards, Aesthetics and Decorations, Belt flags." }]
+    "reviewFlags": [
+      "tabards",
+      "aesthetics-and-decorations",
+      "team-heraldry"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Authenticity section includes Tabards, Aesthetics and Decorations, Belt flags."
+      }
+    ]
   },
-
   {
     "id": "helmet-side-hinged-sugarloaf-1325",
     "name": "Sugarloaf Side-hinged Bascinet",
     "part": "helmet",
     "subtype": "sugarloafSideHingedBascinet",
-    "historicalRegions": ["westernEurope", "centralEurope", "england", "france", "holyRomanEmpire"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "england",
+      "france",
+      "holyRomanEmpire"
+    ],
     "cultureGroup": "westernEuropean",
     "startYear": 1325,
     "endYear": 1390,
-    "thumbnail": "/images/mock/helmet.svg",
-    "image": "/images/mock/helmet.svg",
-    "allowedFormats": ["buhurt", "duel", "massBattle"],
-    "protectedZones": ["head", "face"],
-    "requires": ["neckProtection"],
-    "reviewFlags": ["side-hinged-bascinet-requirements", "visor-hinge", "eye-slot-safety"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Verified from Side-hinged visored Bascinets PDF table of contents and extracted text." }]
+    "thumbnail": "/images/pieces/helmet-side-hinged-sugarloaf-1325.svg",
+    "image": "/images/pieces/helmet-side-hinged-sugarloaf-1325.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "massBattle"
+    ],
+    "protectedZones": [
+      "head",
+      "face"
+    ],
+    "requires": [
+      "neckProtection"
+    ],
+    "reviewFlags": [
+      "side-hinged-bascinet-requirements",
+      "visor-hinge",
+      "eye-slot-safety"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Side-hinged visored Bascinets PDF table of contents and extracted text."
+      }
+    ]
   },
   {
     "id": "helmet-side-hinged-romance-1370",
     "name": "Romance Side-hinged Bascinet",
     "part": "helmet",
     "subtype": "romanceSideHingedBascinet",
-    "historicalRegions": ["westernEurope", "centralEurope", "italianStates", "england", "france"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "italianStates",
+      "england",
+      "france"
+    ],
     "cultureGroup": "westernEuropean",
     "startYear": 1370,
     "endYear": 1425,
-    "thumbnail": "/images/mock/helmet.svg",
-    "image": "/images/mock/helmet.svg",
-    "allowedFormats": ["buhurt", "duel", "outrance", "massBattle"],
-    "protectedZones": ["head", "face"],
-    "requires": ["aventailOrNeckProtection"],
-    "reviewFlags": ["side-hinged-bascinet-requirements", "visor-proportions", "eye-bars-if-added"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Verified from Side-hinged visored Bascinets PDF table of contents and extracted text." }]
+    "thumbnail": "/images/pieces/helmet-side-hinged-romance-1370.svg",
+    "image": "/images/pieces/helmet-side-hinged-romance-1370.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "outrance",
+      "massBattle"
+    ],
+    "protectedZones": [
+      "head",
+      "face"
+    ],
+    "requires": [
+      "aventailOrNeckProtection"
+    ],
+    "reviewFlags": [
+      "side-hinged-bascinet-requirements",
+      "visor-proportions",
+      "eye-bars-if-added"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Side-hinged visored Bascinets PDF table of contents and extracted text."
+      }
+    ]
   },
   {
     "id": "helmet-houndskull-bascinet-1400",
     "name": "Houndskull / Hundsgugel Bascinet",
     "part": "helmet",
     "subtype": "houndskullSideHingedBascinet",
-    "historicalRegions": ["centralEurope", "westernEurope", "holyRomanEmpire", "italianStates", "england", "france"],
+    "historicalRegions": [
+      "centralEurope",
+      "westernEurope",
+      "holyRomanEmpire",
+      "italianStates",
+      "england",
+      "france"
+    ],
     "cultureGroup": "centralWesternEuropean",
     "startYear": 1390,
     "endYear": 1450,
-    "thumbnail": "/images/mock/helmet.svg",
-    "image": "/images/mock/helmet.svg",
-    "allowedFormats": ["buhurt", "duel", "outrance", "massBattle"],
-    "protectedZones": ["head", "face"],
-    "requires": ["aventailOrNeckProtection"],
-    "reviewFlags": ["side-hinged-bascinet-requirements", "visor-proportions", "breath-hole-safety"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Verified from Side-hinged visored Bascinets PDF table of contents and extracted text." }]
+    "thumbnail": "/images/pieces/helmet-houndskull-bascinet-1400.svg",
+    "image": "/images/pieces/helmet-houndskull-bascinet-1400.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "outrance",
+      "massBattle"
+    ],
+    "protectedZones": [
+      "head",
+      "face"
+    ],
+    "requires": [
+      "aventailOrNeckProtection"
+    ],
+    "reviewFlags": [
+      "side-hinged-bascinet-requirements",
+      "visor-proportions",
+      "breath-hole-safety"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Side-hinged visored Bascinets PDF table of contents and extracted text."
+      }
+    ]
   },
   {
     "id": "helmet-great-bascinet-1420",
     "name": "Great Bascinet",
     "part": "helmet",
     "subtype": "greatBascinet",
-    "historicalRegions": ["westernEurope", "centralEurope", "france", "italianStates"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "france",
+      "italianStates"
+    ],
     "cultureGroup": "lateMedievalEuropean",
     "startYear": 1400,
     "endYear": 1450,
-    "thumbnail": "/images/mock/helmet.svg",
-    "image": "/images/mock/helmet.svg",
-    "allowedFormats": ["buhurt", "duel", "outrance", "massBattle", "fullPlateHarness"],
-    "protectedZones": ["head", "face", "neck", "throat"],
+    "thumbnail": "/images/pieces/helmet-great-bascinet-1420.svg",
+    "image": "/images/pieces/helmet-great-bascinet-1420.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "outrance",
+      "massBattle",
+      "fullPlateHarness"
+    ],
+    "protectedZones": [
+      "head",
+      "face",
+      "neck",
+      "throat"
+    ],
     "requires": [],
-    "reviewFlags": ["side-hinged-bascinet-requirements", "integrated-neck-protection", "eye-slot-safety"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Verified from Side-hinged visored Bascinets PDF table of contents and extracted text." }]
+    "reviewFlags": [
+      "side-hinged-bascinet-requirements",
+      "integrated-neck-protection",
+      "eye-slot-safety"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Side-hinged visored Bascinets PDF table of contents and extracted text."
+      }
+    ]
   },
   {
     "id": "helmet-great-helm-1490",
     "name": "Late Great Helm",
     "part": "helmet",
     "subtype": "greatHelm",
-    "historicalRegions": ["westernEurope", "centralEurope", "france", "england", "holyRomanEmpire"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "france",
+      "england",
+      "holyRomanEmpire"
+    ],
     "cultureGroup": "lateMedievalEuropean",
     "startYear": 1450,
     "endYear": 1500,
-    "thumbnail": "/images/mock/helmet.svg",
-    "image": "/images/mock/helmet.svg",
-    "allowedFormats": ["buhurt", "duel", "fullPlateHarness"],
-    "protectedZones": ["head", "face"],
-    "requires": ["aventailOrNeckProtection"],
-    "reviewFlags": ["great-helm-requirements", "eye-slot-safety", "aventail-compatibility"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Verified from Helmet - Great Helms PDF table of contents and extracted text." }]
+    "thumbnail": "/images/pieces/helmet-great-helm-1490.svg",
+    "image": "/images/pieces/helmet-great-helm-1490.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "fullPlateHarness"
+    ],
+    "protectedZones": [
+      "head",
+      "face"
+    ],
+    "requires": [
+      "aventailOrNeckProtection"
+    ],
+    "reviewFlags": [
+      "great-helm-requirements",
+      "eye-slot-safety",
+      "aventail-compatibility"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Helmet - Great Helms PDF table of contents and extracted text."
+      }
+    ]
   },
   {
     "id": "helmet-wolf-ribs-1400",
     "name": "Wolf Ribs Helmet",
     "part": "helmet",
     "subtype": "wolfRibsHelmet",
-    "historicalRegions": ["easternEurope", "centralEurope", "polandLithuania", "holyRomanEmpire"],
+    "historicalRegions": [
+      "easternEurope",
+      "centralEurope",
+      "polandLithuania",
+      "holyRomanEmpire"
+    ],
     "cultureGroup": "centralEasternEuropean",
     "startYear": 1380,
     "endYear": 1475,
-    "thumbnail": "/images/mock/helmet.svg",
-    "image": "/images/mock/helmet.svg",
-    "allowedFormats": ["buhurt", "duel", "massBattle"],
-    "protectedZones": ["head", "face"],
-    "requires": ["aventailOrNeckProtection"],
-    "reviewFlags": ["wolf-ribs-requirements", "rib-shape", "eye-slot-safety"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Verified from Wolf Ribs PDF table of contents and extracted text." }]
+    "thumbnail": "/images/pieces/helmet-wolf-ribs-1400.svg",
+    "image": "/images/pieces/helmet-wolf-ribs-1400.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "massBattle"
+    ],
+    "protectedZones": [
+      "head",
+      "face"
+    ],
+    "requires": [
+      "aventailOrNeckProtection"
+    ],
+    "reviewFlags": [
+      "wolf-ribs-requirements",
+      "rib-shape",
+      "eye-slot-safety"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Wolf Ribs PDF table of contents and extracted text."
+      }
+    ]
   },
-
   {
     "id": "neck-scale-aventail-1415",
     "name": "Scale Aventail",
     "part": "neckProtection",
     "subtype": "scaleAventail",
-    "historicalRegions": ["westernEurope", "centralEurope", "france", "holyRomanEmpire"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "france",
+      "holyRomanEmpire"
+    ],
     "cultureGroup": "westernEuropean",
     "startYear": 1400,
     "endYear": 1450,
-    "thumbnail": "/images/mock/neck.svg",
-    "image": "/images/mock/neck.svg",
-    "allowedFormats": ["buhurt", "duel", "outrance", "massBattle"],
-    "protectedZones": ["neck", "throat"],
+    "thumbnail": "/images/pieces/neck-scale-aventail-1415.svg",
+    "image": "/images/pieces/neck-scale-aventail-1415.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "outrance",
+      "massBattle"
+    ],
+    "protectedZones": [
+      "neck",
+      "throat"
+    ],
     "requires": [],
-    "reviewFlags": ["aventail-requirements", "scale-overlap", "pelerine-attachment"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Verified from Aventails PDF: Scales Aventail section and extracted requirements snippets." }]
+    "reviewFlags": [
+      "aventail-requirements",
+      "scale-overlap",
+      "pelerine-attachment"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Aventails PDF: Scales Aventail section and extracted requirements snippets."
+      }
+    ]
   },
   {
     "id": "neck-fabric-aventail-1385",
     "name": "Fabric Aventail",
     "part": "neckProtection",
     "subtype": "fabricAventail",
-    "historicalRegions": ["westernEurope", "centralEurope", "italianStates", "holyRomanEmpire"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "italianStates",
+      "holyRomanEmpire"
+    ],
     "cultureGroup": "transitionalEuropean",
     "startYear": 1370,
     "endYear": 1405,
-    "thumbnail": "/images/mock/neck.svg",
-    "image": "/images/mock/neck.svg",
-    "allowedFormats": ["buhurt", "massBattle"],
-    "protectedZones": ["neck", "throat"],
+    "thumbnail": "/images/pieces/neck-fabric-aventail-1385.svg",
+    "image": "/images/pieces/neck-fabric-aventail-1385.svg",
+    "allowedFormats": [
+      "buhurt",
+      "massBattle"
+    ],
+    "protectedZones": [
+      "neck",
+      "throat"
+    ],
     "requires": [],
-    "reviewFlags": ["aventail-requirements", "fabric-layering", "not-for-15th-century-risk"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Verified from Aventails PDF: Fabric Aventails section and extracted text notes denial for 15th-century armor." }]
+    "reviewFlags": [
+      "aventail-requirements",
+      "fabric-layering",
+      "not-for-15th-century-risk"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Aventails PDF: Fabric Aventails section and extracted text notes denial for 15th-century armor."
+      }
+    ]
   },
   {
     "id": "neck-shield-1400",
     "name": "Neck Shield",
     "part": "neckProtection",
     "subtype": "neckShield",
-    "historicalRegions": ["westernEurope", "centralEurope"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope"
+    ],
     "cultureGroup": "westernEuropean",
     "startYear": 1350,
     "endYear": 1500,
-    "thumbnail": "/images/mock/neck.svg",
-    "image": "/images/mock/neck.svg",
-    "allowedFormats": ["buhurt", "duel", "massBattle"],
-    "protectedZones": ["neck", "throat"],
+    "thumbnail": "/images/pieces/neck-shield-1400.svg",
+    "image": "/images/pieces/neck-shield-1400.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "massBattle"
+    ],
+    "protectedZones": [
+      "neck",
+      "throat"
+    ],
     "requires": [],
-    "reviewFlags": ["neck-protection-requirements", "visible-source-or-concealed", "helmet-overlap"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Verified from Neck Protection PDF: Neck shield section." }]
+    "reviewFlags": [
+      "neck-protection-requirements",
+      "visible-source-or-concealed",
+      "helmet-overlap"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Neck Protection PDF: Neck shield section."
+      }
+    ]
   },
   {
     "id": "neck-lobster-tail-1450",
     "name": "Lobster Tail Neck Protection",
     "part": "neckProtection",
     "subtype": "lobsterTail",
-    "historicalRegions": ["westernEurope", "centralEurope", "italianStates"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "italianStates"
+    ],
     "cultureGroup": "lateMedievalEuropean",
     "startYear": 1400,
     "endYear": 1500,
-    "thumbnail": "/images/mock/neck.svg",
-    "image": "/images/mock/neck.svg",
-    "allowedFormats": ["buhurt", "duel", "fullPlateHarness"],
-    "protectedZones": ["neck", "throat"],
+    "thumbnail": "/images/pieces/neck-lobster-tail-1450.svg",
+    "image": "/images/pieces/neck-lobster-tail-1450.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "fullPlateHarness"
+    ],
+    "protectedZones": [
+      "neck",
+      "throat"
+    ],
     "requires": [],
-    "reviewFlags": ["neck-protection-requirements", "aventail-overlap", "attachment-safety"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Verified from Neck Protection PDF: Lobster tail section." }]
+    "reviewFlags": [
+      "neck-protection-requirements",
+      "aventail-overlap",
+      "attachment-safety"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Neck Protection PDF: Lobster tail section."
+      }
+    ]
   },
   {
     "id": "neck-concealed-plates-1400",
     "name": "Concealed Neck Plates",
     "part": "neckProtection",
     "subtype": "concealedNeckProtection",
-    "historicalRegions": ["westernEurope", "centralEurope", "easternEurope", "italianStates"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "easternEurope",
+      "italianStates"
+    ],
     "cultureGroup": "panEuropean",
     "startYear": 1350,
     "endYear": 1500,
-    "thumbnail": "/images/mock/neck.svg",
-    "image": "/images/mock/neck.svg",
-    "allowedFormats": ["buhurt", "duel", "outrance", "massBattle"],
-    "protectedZones": ["neck", "throat"],
+    "thumbnail": "/images/pieces/neck-concealed-plates-1400.svg",
+    "image": "/images/pieces/neck-concealed-plates-1400.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "outrance",
+      "massBattle"
+    ],
+    "protectedZones": [
+      "neck",
+      "throat"
+    ],
     "requires": [],
-    "reviewFlags": ["neck-protection-requirements", "must-be-concealed", "attachment-safety"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Verified from Neck Protection PDF: Concealed neck plates section." }]
+    "reviewFlags": [
+      "neck-protection-requirements",
+      "must-be-concealed",
+      "attachment-safety"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Neck Protection PDF: Concealed neck plates section."
+      }
+    ]
   },
-
   {
     "id": "legs-one-panel-greaves-1350",
     "name": "One Panel Greaves / Half-Greaves",
     "part": "legs",
     "subtype": "onePanelGreaves",
-    "historicalRegions": ["westernEurope", "centralEurope", "italianStates"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "italianStates"
+    ],
     "cultureGroup": "westernEuropean",
     "startYear": 1320,
     "endYear": 1450,
-    "thumbnail": "/images/mock/legs.svg",
-    "image": "/images/mock/legs.svg",
-    "allowedFormats": ["buhurt", "duel", "massBattle"],
-    "protectedZones": ["shins"],
-    "requires": ["kneeProtection", "boots"],
-    "reviewFlags": ["greaves-requirements", "half-greaves-coverage", "knee-joint-protection"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Verified from Greaves PDF table of contents: One Panel Greaves / Half-Greaves." }]
+    "thumbnail": "/images/pieces/legs-one-panel-greaves-1350.svg",
+    "image": "/images/pieces/legs-one-panel-greaves-1350.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "massBattle"
+    ],
+    "protectedZones": [
+      "shins"
+    ],
+    "requires": [
+      "kneeProtection",
+      "boots"
+    ],
+    "reviewFlags": [
+      "greaves-requirements",
+      "half-greaves-coverage",
+      "knee-joint-protection"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Greaves PDF table of contents: One Panel Greaves / Half-Greaves."
+      }
+    ]
   },
   {
     "id": "legs-two-panel-cased-greaves-1400",
     "name": "Two Panel / Cased Greaves",
     "part": "legs",
     "subtype": "twoPanelGreaves",
-    "historicalRegions": ["westernEurope", "centralEurope", "italianStates"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "italianStates"
+    ],
     "cultureGroup": "lateMedievalEuropean",
     "startYear": 1350,
     "endYear": 1500,
-    "thumbnail": "/images/mock/legs.svg",
-    "image": "/images/mock/legs.svg",
-    "allowedFormats": ["buhurt", "duel", "outrance", "fullPlateHarness"],
-    "protectedZones": ["shins"],
-    "requires": ["kneeProtection", "boots"],
-    "reviewFlags": ["greaves-requirements", "cased-greaves-articulation", "knee-joint-protection"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Verified from Greaves PDF table of contents: Two panels greaves / cased greaves." }]
+    "thumbnail": "/images/pieces/legs-two-panel-cased-greaves-1400.svg",
+    "image": "/images/pieces/legs-two-panel-cased-greaves-1400.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "outrance",
+      "fullPlateHarness"
+    ],
+    "protectedZones": [
+      "shins"
+    ],
+    "requires": [
+      "kneeProtection",
+      "boots"
+    ],
+    "reviewFlags": [
+      "greaves-requirements",
+      "cased-greaves-articulation",
+      "knee-joint-protection"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Greaves PDF table of contents: Two panels greaves / cased greaves."
+      }
+    ]
   },
   {
     "id": "legs-three-panel-greaves-1400",
     "name": "Three Panel Greaves",
     "part": "legs",
     "subtype": "threePanelGreaves",
-    "historicalRegions": ["westernEurope", "centralEurope", "italianStates"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "italianStates"
+    ],
     "cultureGroup": "lateMedievalEuropean",
     "startYear": 1350,
     "endYear": 1500,
-    "thumbnail": "/images/mock/legs.svg",
-    "image": "/images/mock/legs.svg",
-    "allowedFormats": ["buhurt", "duel", "outrance", "fullPlateHarness"],
-    "protectedZones": ["shins"],
-    "requires": ["kneeProtection", "boots"],
-    "reviewFlags": ["greaves-requirements", "three-panel-fit", "knee-joint-protection"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Verified from Greaves PDF table of contents: Three Panel Greaves." }]
+    "thumbnail": "/images/pieces/legs-three-panel-greaves-1400.svg",
+    "image": "/images/pieces/legs-three-panel-greaves-1400.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "outrance",
+      "fullPlateHarness"
+    ],
+    "protectedZones": [
+      "shins"
+    ],
+    "requires": [
+      "kneeProtection",
+      "boots"
+    ],
+    "reviewFlags": [
+      "greaves-requirements",
+      "three-panel-fit",
+      "knee-joint-protection"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Greaves PDF table of contents: Three Panel Greaves."
+      }
+    ]
   },
   {
     "id": "legs-splinted-greaves-1400",
     "name": "Splinted Greaves",
     "part": "legs",
     "subtype": "splintedGreaves",
-    "historicalRegions": ["westernEurope", "centralEurope", "easternEurope"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "easternEurope"
+    ],
     "cultureGroup": "panEuropean",
     "startYear": 1320,
     "endYear": 1450,
-    "thumbnail": "/images/mock/legs.svg",
-    "image": "/images/mock/legs.svg",
-    "allowedFormats": ["buhurt", "duel", "massBattle"],
-    "protectedZones": ["shins"],
-    "requires": ["kneeProtection", "boots"],
-    "reviewFlags": ["greaves-requirements", "splinted-greaves-requirements", "knee-joint-protection"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Verified from Greaves PDF table of contents: Splinted Greaves." }]
+    "thumbnail": "/images/pieces/legs-splinted-greaves-1400.svg",
+    "image": "/images/pieces/legs-splinted-greaves-1400.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "massBattle"
+    ],
+    "protectedZones": [
+      "shins"
+    ],
+    "requires": [
+      "kneeProtection",
+      "boots"
+    ],
+    "reviewFlags": [
+      "greaves-requirements",
+      "splinted-greaves-requirements",
+      "knee-joint-protection"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Greaves PDF table of contents: Splinted Greaves."
+      }
+    ]
   },
   {
     "id": "legs-brigand-greaves-1400",
     "name": "Brigand Greaves",
     "part": "legs",
     "subtype": "brigandGreaves",
-    "historicalRegions": ["westernEurope", "centralEurope", "italianStates"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "italianStates"
+    ],
     "cultureGroup": "lateMedievalEuropean",
     "startYear": 1350,
     "endYear": 1500,
-    "thumbnail": "/images/mock/legs.svg",
-    "image": "/images/mock/legs.svg",
-    "allowedFormats": ["buhurt", "duel", "massBattle"],
-    "protectedZones": ["shins"],
-    "requires": ["kneeProtection", "boots"],
-    "reviewFlags": ["greaves-requirements", "brigand-greaves-requirements", "textile-and-leather"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Verified from Greaves PDF table of contents: Brigand Greaves." }]
+    "thumbnail": "/images/pieces/legs-brigand-greaves-1400.svg",
+    "image": "/images/pieces/legs-brigand-greaves-1400.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "massBattle"
+    ],
+    "protectedZones": [
+      "shins"
+    ],
+    "requires": [
+      "kneeProtection",
+      "boots"
+    ],
+    "reviewFlags": [
+      "greaves-requirements",
+      "brigand-greaves-requirements",
+      "textile-and-leather"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Greaves PDF table of contents: Brigand Greaves."
+      }
+    ]
   },
-
   {
     "id": "boots-brigand-sabatons-1400",
     "name": "Brigand Sabatons",
     "part": "boots",
     "subtype": "brigandSabatons",
-    "historicalRegions": ["westernEurope", "centralEurope", "italianStates"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "italianStates"
+    ],
     "cultureGroup": "lateMedievalEuropean",
     "startYear": 1350,
     "endYear": 1500,
-    "thumbnail": "/images/mock/boots.svg",
-    "image": "/images/mock/boots.svg",
-    "allowedFormats": ["buhurt", "duel", "massBattle"],
-    "protectedZones": ["feet"],
+    "thumbnail": "/images/pieces/boots-brigand-sabatons-1400.svg",
+    "image": "/images/pieces/boots-brigand-sabatons-1400.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "massBattle"
+    ],
+    "protectedZones": [
+      "feet"
+    ],
     "requires": [],
-    "reviewFlags": ["sabatons-requirements", "brigand-sabatons-requirements", "textile-and-leather"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Verified from Sabatons PDF: Brigand sabatons section." }]
+    "reviewFlags": [
+      "sabatons-requirements",
+      "brigand-sabatons-requirements",
+      "textile-and-leather"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Sabatons PDF: Brigand sabatons section."
+      }
+    ]
   },
   {
     "id": "boots-scale-sabatons-1400",
     "name": "Scale Sabatons",
     "part": "boots",
     "subtype": "scaleSabatons",
-    "historicalRegions": ["westernEurope", "centralEurope", "italianStates"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "italianStates"
+    ],
     "cultureGroup": "lateMedievalEuropean",
     "startYear": 1350,
     "endYear": 1500,
-    "thumbnail": "/images/mock/boots.svg",
-    "image": "/images/mock/boots.svg",
-    "allowedFormats": ["buhurt", "duel", "massBattle"],
-    "protectedZones": ["feet"],
+    "thumbnail": "/images/pieces/boots-scale-sabatons-1400.svg",
+    "image": "/images/pieces/boots-scale-sabatons-1400.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "massBattle"
+    ],
+    "protectedZones": [
+      "feet"
+    ],
     "requires": [],
-    "reviewFlags": ["sabatons-requirements", "scale-sabatons-requirements", "textile-and-leather"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Verified from Sabatons PDF: Scale sabatons section." }]
+    "reviewFlags": [
+      "sabatons-requirements",
+      "scale-sabatons-requirements",
+      "textile-and-leather"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Sabatons PDF: Scale sabatons section."
+      }
+    ]
   },
   {
     "id": "boots-chainmail-sabatons-1320",
     "name": "Chainmail Sabatons",
     "part": "boots",
     "subtype": "chainmailSabatons",
-    "historicalRegions": ["westernEurope", "centralEurope", "easternEurope"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "easternEurope"
+    ],
     "cultureGroup": "panEuropean",
     "startYear": 1300,
     "endYear": 1400,
-    "thumbnail": "/images/mock/boots.svg",
-    "image": "/images/mock/boots.svg",
-    "allowedFormats": ["buhurt", "duel", "massBattle"],
-    "protectedZones": ["feet"],
+    "thumbnail": "/images/pieces/boots-chainmail-sabatons-1320.svg",
+    "image": "/images/pieces/boots-chainmail-sabatons-1320.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "massBattle"
+    ],
+    "protectedZones": [
+      "feet"
+    ],
     "requires": [],
-    "reviewFlags": ["sabatons-requirements", "chainmail-sabatons-requirements"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Verified from Sabatons PDF: Chainmail sabatons section." }]
+    "reviewFlags": [
+      "sabatons-requirements",
+      "chainmail-sabatons-requirements"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Sabatons PDF: Chainmail sabatons section."
+      }
+    ]
   },
-
   {
     "id": "shield-punch-1400",
     "name": "Punch Shield",
     "part": "shield",
     "subtype": "punchShield",
-    "historicalRegions": ["westernEurope", "centralEurope", "easternEurope", "italianStates"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "easternEurope",
+      "italianStates"
+    ],
     "cultureGroup": "panEuropean",
     "startYear": 1300,
     "endYear": 1500,
-    "thumbnail": "/images/mock/shield.svg",
-    "image": "/images/mock/shield.svg",
-    "allowedFormats": ["buhurt", "massBattle"],
+    "thumbnail": "/images/pieces/shield-punch-1400.svg",
+    "image": "/images/pieces/shield-punch-1400.svg",
+    "allowedFormats": [
+      "buhurt",
+      "massBattle"
+    ],
     "protectedZones": [],
     "requires": [],
-    "reviewFlags": ["shields-and-bucklers", "punch-shield-requirements", "weapon-shield-chart"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Verified from Shields and Bucklers(1).pdf: Punch shield section." }]
+    "reviewFlags": [
+      "shields-and-bucklers",
+      "punch-shield-requirements",
+      "weapon-shield-chart"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Shields and Bucklers(1).pdf: Punch shield section."
+      }
+    ]
   },
   {
     "id": "shield-round-1350",
     "name": "Round Shield",
     "part": "shield",
     "subtype": "roundShield",
-    "historicalRegions": ["westernEurope", "centralEurope", "easternEurope", "northernEurope", "scandinavia"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "easternEurope",
+      "northernEurope",
+      "scandinavia"
+    ],
     "cultureGroup": "panEuropean",
     "startYear": 1300,
     "endYear": 1500,
-    "thumbnail": "/images/mock/shield.svg",
-    "image": "/images/mock/shield.svg",
-    "allowedFormats": ["buhurt", "duel", "massBattle"],
+    "thumbnail": "/images/pieces/shield-round-1350.svg",
+    "image": "/images/pieces/shield-round-1350.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "massBattle"
+    ],
     "protectedZones": [],
     "requires": [],
-    "reviewFlags": ["shields-and-bucklers", "round-shield-requirements", "weapon-shield-chart"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Verified from Shields and Bucklers(1).pdf: Round shield section." }]
+    "reviewFlags": [
+      "shields-and-bucklers",
+      "round-shield-requirements",
+      "weapon-shield-chart"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Shields and Bucklers(1).pdf: Round shield section."
+      }
+    ]
   },
   {
     "id": "shield-metal-buckler-1450",
     "name": "Metal Buckler",
     "part": "shield",
     "subtype": "metalBuckler",
-    "historicalRegions": ["westernEurope", "centralEurope", "italianStates", "iberia"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "italianStates",
+      "iberia"
+    ],
     "cultureGroup": "lateMedievalEuropean",
     "startYear": 1400,
     "endYear": 1550,
-    "thumbnail": "/images/mock/shield.svg",
-    "image": "/images/mock/shield.svg",
-    "allowedFormats": ["duel"],
+    "thumbnail": "/images/pieces/shield-metal-buckler-1450.svg",
+    "image": "/images/pieces/shield-metal-buckler-1450.svg",
+    "allowedFormats": [
+      "duel"
+    ],
     "protectedZones": [],
     "requires": [],
-    "reviewFlags": ["buckler-requirements", "metal-shield-requirements", "duel-category-only-risk"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Verified from Shields and Bucklers(1).pdf: Bucklers and Metal shields sections." }]
+    "reviewFlags": [
+      "buckler-requirements",
+      "metal-shield-requirements",
+      "duel-category-only-risk"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Shields and Bucklers(1).pdf: Bucklers and Metal shields sections."
+      }
+    ]
   },
-
   {
     "id": "tabard-sleeveless-1400",
     "name": "Sleeveless Tabard",
     "part": "tabard",
     "subtype": "sleevelessTabard",
-    "historicalRegions": ["westernEurope", "centralEurope", "england", "france", "holyRomanEmpire"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "england",
+      "france",
+      "holyRomanEmpire"
+    ],
     "cultureGroup": "westernEuropeanHeraldry",
     "startYear": 1300,
     "endYear": 1550,
-    "thumbnail": "/images/mock/tabard.svg",
-    "image": "/images/mock/tabard.svg",
-    "allowedFormats": ["buhurt", "duel", "outrance", "massBattle"],
+    "thumbnail": "/images/pieces/tabard-sleeveless-1400.svg",
+    "image": "/images/pieces/tabard-sleeveless-1400.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "outrance",
+      "massBattle"
+    ],
     "protectedZones": [],
     "requires": [],
-    "reviewFlags": ["tabards", "material-requirements", "symbols-and-decorations"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Verified from Tabards PDF: Sleeveless tabard section." }]
+    "reviewFlags": [
+      "tabards",
+      "material-requirements",
+      "symbols-and-decorations"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Tabards PDF: Sleeveless tabard section."
+      }
+    ]
   },
   {
     "id": "tabard-short-sleeves-1400",
     "name": "Short-sleeves Tabard",
     "part": "tabard",
     "subtype": "shortSleevesTabard",
-    "historicalRegions": ["westernEurope", "centralEurope", "england", "france", "holyRomanEmpire"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "england",
+      "france",
+      "holyRomanEmpire"
+    ],
     "cultureGroup": "westernEuropeanHeraldry",
     "startYear": 1300,
     "endYear": 1550,
-    "thumbnail": "/images/mock/tabard.svg",
-    "image": "/images/mock/tabard.svg",
-    "allowedFormats": ["buhurt", "duel", "outrance", "massBattle"],
+    "thumbnail": "/images/pieces/tabard-short-sleeves-1400.svg",
+    "image": "/images/pieces/tabard-short-sleeves-1400.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "outrance",
+      "massBattle"
+    ],
     "protectedZones": [],
     "requires": [],
-    "reviewFlags": ["tabards", "material-requirements", "symbols-and-decorations"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Verified from Tabards PDF: Short-sleeves tabard section." }]
+    "reviewFlags": [
+      "tabards",
+      "material-requirements",
+      "symbols-and-decorations"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Tabards PDF: Short-sleeves tabard section."
+      }
+    ]
   },
   {
     "id": "tabard-long-sleeves-1400",
     "name": "Long-sleeves Tabard",
     "part": "tabard",
     "subtype": "longSleevesTabard",
-    "historicalRegions": ["westernEurope", "centralEurope", "england", "france", "holyRomanEmpire"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "england",
+      "france",
+      "holyRomanEmpire"
+    ],
     "cultureGroup": "westernEuropeanHeraldry",
     "startYear": 1300,
     "endYear": 1550,
-    "thumbnail": "/images/mock/tabard.svg",
-    "image": "/images/mock/tabard.svg",
-    "allowedFormats": ["buhurt", "duel", "outrance", "massBattle"],
+    "thumbnail": "/images/pieces/tabard-long-sleeves-1400.svg",
+    "image": "/images/pieces/tabard-long-sleeves-1400.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "outrance",
+      "massBattle"
+    ],
     "protectedZones": [],
     "requires": [],
-    "reviewFlags": ["tabards", "material-requirements", "symbols-and-decorations"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Verified from Tabards PDF: Long-Sleeves tabard section." }]
+    "reviewFlags": [
+      "tabards",
+      "material-requirements",
+      "symbols-and-decorations"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Tabards PDF: Long-Sleeves tabard section."
+      }
+    ]
   },
   {
     "id": "tabard-belt-flag-2024",
     "name": "Belt Flag",
     "part": "tabard",
     "subtype": "beltFlag",
-    "historicalRegions": ["westernEurope", "centralEurope", "easternEurope", "italianStates"],
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "easternEurope",
+      "italianStates"
+    ],
     "cultureGroup": "competitionIdentification",
     "startYear": 1300,
     "endYear": 1550,
-    "thumbnail": "/images/mock/tabard.svg",
-    "image": "/images/mock/tabard.svg",
-    "allowedFormats": ["buhurt", "duel", "outrance", "massBattle"],
+    "thumbnail": "/images/pieces/tabard-belt-flag-2024.svg",
+    "image": "/images/pieces/tabard-belt-flag-2024.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "outrance",
+      "massBattle"
+    ],
     "protectedZones": [],
     "requires": [],
-    "reviewFlags": ["belt-flag", "number-readability", "textile-and-leather"],
-    "sources": [{ "name": "Buhurt International", "url": "https://www.buhurtinternational.com/rules", "note": "Verified from Belt Flag PDF extracted text; modern symbols/decorations require rejection/manual review." }]
+    "reviewFlags": [
+      "belt-flag",
+      "number-readability",
+      "textile-and-leather"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Belt Flag PDF extracted text; modern symbols/decorations require rejection/manual review."
+      }
+    ]
+  },
+  {
+    "id": "helmet-nasal-bascinet-1350",
+    "name": "Nasal Bascinet",
+    "part": "helmet",
+    "subtype": "nasalHelmet",
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "italianStates",
+      "holyRomanEmpire"
+    ],
+    "cultureGroup": "centralWesternEuropean",
+    "startYear": 1330,
+    "endYear": 1400,
+    "thumbnail": "/images/pieces/helmet-nasal-bascinet-1350.svg",
+    "image": "/images/pieces/helmet-nasal-bascinet-1350.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "massBattle"
+    ],
+    "protectedZones": [
+      "head",
+      "face"
+    ],
+    "requires": [
+      "aventailOrNeckProtection"
+    ],
+    "reviewFlags": [
+      "helmet-specific-requirements",
+      "visor-proportions",
+      "eye-slot-safety",
+      "must-be-concealed"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Nasal and Breteche.pdf: Nasal Helmet section and extracted requirements snippets."
+      }
+    ]
+  },
+  {
+    "id": "helmet-breteche-bascinet-1350",
+    "name": "Breteche Bascinet",
+    "part": "helmet",
+    "subtype": "bretecheHelmet",
+    "historicalRegions": [
+      "centralEurope",
+      "italianStates",
+      "holyRomanEmpire"
+    ],
+    "cultureGroup": "centralWesternEuropean",
+    "startYear": 1335,
+    "endYear": 1400,
+    "thumbnail": "/images/pieces/helmet-breteche-bascinet-1350.svg",
+    "image": "/images/pieces/helmet-breteche-bascinet-1350.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "massBattle"
+    ],
+    "protectedZones": [
+      "head",
+      "face"
+    ],
+    "requires": [
+      "aventailOrNeckProtection"
+    ],
+    "reviewFlags": [
+      "helmet-specific-requirements",
+      "visor-proportions",
+      "eye-slot-safety",
+      "must-be-concealed"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Nasal and Breteche.pdf: Breteche Helmet section and extracted requirements snippets."
+      }
+    ]
+  },
+  {
+    "id": "helmet-klappvisor-german-1370",
+    "name": "German-style Klappvisor",
+    "part": "helmet",
+    "subtype": "germanStyleKlappvisor",
+    "historicalRegions": [
+      "centralEurope",
+      "holyRomanEmpire"
+    ],
+    "cultureGroup": "centralWesternEuropean",
+    "startYear": 1350,
+    "endYear": 1390,
+    "thumbnail": "/images/pieces/helmet-klappvisor-german-1370.svg",
+    "image": "/images/pieces/helmet-klappvisor-german-1370.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "outrance",
+      "massBattle"
+    ],
+    "protectedZones": [
+      "head",
+      "face"
+    ],
+    "requires": [
+      "aventailOrNeckProtection"
+    ],
+    "reviewFlags": [
+      "klappvisor-requirements",
+      "visor-hinge",
+      "breath-hole-safety",
+      "eye-slot-safety"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Klappvisors.pdf: German-Style Klappvisors section and extracted requirements snippets."
+      }
+    ]
+  },
+  {
+    "id": "helmet-klappvisor-italian-1370",
+    "name": "Italian-style Klappvisor",
+    "part": "helmet",
+    "subtype": "italianStyleKlappvisor",
+    "historicalRegions": [
+      "italianStates",
+      "southernEurope"
+    ],
+    "cultureGroup": "lateMedievalEuropean",
+    "startYear": 1350,
+    "endYear": 1400,
+    "thumbnail": "/images/pieces/helmet-klappvisor-italian-1370.svg",
+    "image": "/images/pieces/helmet-klappvisor-italian-1370.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "outrance",
+      "massBattle"
+    ],
+    "protectedZones": [
+      "head",
+      "face"
+    ],
+    "requires": [
+      "aventailOrNeckProtection"
+    ],
+    "reviewFlags": [
+      "klappvisor-requirements",
+      "visor-hinge",
+      "breath-hole-safety",
+      "eye-slot-safety"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Klappvisors.pdf: Italian style Klappvisor section and extracted requirements snippets."
+      }
+    ]
+  },
+  {
+    "id": "helmet-klappvisor-other-1375",
+    "name": "Other-style Klappvisor",
+    "part": "helmet",
+    "subtype": "otherStyleKlappvisor",
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "england"
+    ],
+    "cultureGroup": "westernEuropean",
+    "startYear": 1350,
+    "endYear": 1400,
+    "thumbnail": "/images/pieces/helmet-klappvisor-other-1375.svg",
+    "image": "/images/pieces/helmet-klappvisor-other-1375.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "outrance",
+      "massBattle"
+    ],
+    "protectedZones": [
+      "head",
+      "face"
+    ],
+    "requires": [
+      "aventailOrNeckProtection"
+    ],
+    "reviewFlags": [
+      "klappvisor-requirements",
+      "visor-hinge",
+      "breath-hole-safety",
+      "eye-slot-safety"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Klappvisors.pdf: Other style Klappvisor section and extracted requirements snippets."
+      }
+    ]
+  },
+  {
+    "id": "legs-three-quarter-greaves-1400",
+    "name": "Three Quarters Greaves",
+    "part": "legs",
+    "subtype": "threeQuarterGreaves",
+    "historicalRegions": [
+      "westernEurope",
+      "centralEurope",
+      "italianStates"
+    ],
+    "cultureGroup": "lateMedievalEuropean",
+    "startYear": 1350,
+    "endYear": 1500,
+    "thumbnail": "/images/pieces/legs-three-quarter-greaves-1400.svg",
+    "image": "/images/pieces/legs-three-quarter-greaves-1400.svg",
+    "allowedFormats": [
+      "buhurt",
+      "duel",
+      "outrance",
+      "fullPlateHarness"
+    ],
+    "protectedZones": [
+      "shins"
+    ],
+    "requires": [
+      "kneeProtection",
+      "boots"
+    ],
+    "reviewFlags": [
+      "greaves-requirements",
+      "knee-joint-protection"
+    ],
+    "sources": [
+      {
+        "name": "Buhurt International",
+        "url": "https://www.buhurtinternational.com/rules",
+        "note": "Verified from Greaves.pdf table of contents: Three Quarters Greaves section."
+      }
+    ]
   }
 ]

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title-helmet-sallet-1450 desc-helmet-sallet-1450">
+  <title id="title-helmet-sallet-1450">Sallet 1450</title>
+  <desc id="desc-helmet-sallet-1450">Stylized local illustration for Sallet 1450.</desc>
+  
+    <defs>
+      <linearGradient id="metal-helmet-sallet-1450" x1="0" x2="1" y1="0" y2="1">
+        <stop offset="0%" stop-color="rgb(255 236 178)"/>
+        <stop offset="48%" stop-color="rgb(210 182 124)"/>
+        <stop offset="100%" stop-color="rgb(148 120 62)"/>
+      </linearGradient>
+      <radialGradient id="glow-helmet-sallet-1450" cx="50%" cy="28%" r="62%">
+        <stop offset="0%" stop-color="rgb(255 230 178 / .34)"/>
+        <stop offset="100%" stop-color="rgb(255 230 178 / 0)"/>
+      </radialGradient>
+      <filter id="shadow-helmet-sallet-1450" x="-25%" y="-25%" width="150%" height="150%">
+        <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="rgb(0 0 0)" flood-opacity=".38"/>
+      </filter>
+    </defs>
+  <g filter="url(#shadow-helmet-sallet-1450)"><path d="M32 75c6-36 29-55 63-50 23 3 37 18 42 42 10 2 18 5 26 10-16 5-34 7-54 5l-3 24c-18 12-40 11-61-2-8-7-12-17-13-29Z" fill="url(#metal-helmet-sallet-1450)" stroke="rgb(35 27 21)" stroke-width="4"/><path d="M54 68h68" stroke="rgb(16 15 14)" stroke-width="10" stroke-linecap="round"/><path d="M55 45c22-14 45-15 64-1" stroke="rgb(255 239 199 / .36)" stroke-width="5" stroke-linecap="round"/></g>
+</svg>

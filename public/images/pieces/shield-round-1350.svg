@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title-shield-round-1350 desc-shield-round-1350">
+  <title id="title-shield-round-1350">Round Shield</title>
+  <desc id="desc-shield-round-1350">Stylized local illustration for Round Shield.</desc>
+  
+    <defs>
+      <linearGradient id="metal-shield-round-1350" x1="0" x2="1" y1="0" y2="1">
+        <stop offset="0%" stop-color="rgb(219 132 108)"/>
+        <stop offset="48%" stop-color="rgb(165 78 54)"/>
+        <stop offset="100%" stop-color="rgb(103 16 0)"/>
+      </linearGradient>
+      <radialGradient id="glow-shield-round-1350" cx="50%" cy="28%" r="62%">
+        <stop offset="0%" stop-color="rgb(255 230 178 / .34)"/>
+        <stop offset="100%" stop-color="rgb(255 230 178 / 0)"/>
+      </radialGradient>
+      <filter id="shadow-shield-round-1350" x="-25%" y="-25%" width="150%" height="150%">
+        <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="rgb(0 0 0)" flood-opacity=".38"/>
+      </filter>
+    </defs>
+  <g filter="url(#shadow-shield-round-1350)"><circle cx="80" cy="78" r="49" fill="url(#metal-shield-round-1350)" stroke="rgb(35 27 21)" stroke-width="4"/><circle cx="80" cy="78" r="16" fill="rgb(255 228 166 / .55)" stroke="rgb(35 27 21)" stroke-width="4"/><path d="M45 78h70M80 43v70" stroke="rgb(70 35 28 / .45)" stroke-width="5"/></g>
+</svg>

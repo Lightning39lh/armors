@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title-chest-late-display-1600 desc-chest-late-display-1600">
+  <title id="title-chest-late-display-1600">Late Display Cuirass</title>
+  <desc id="desc-chest-late-display-1600">Stylized local illustration for Late Display Cuirass.</desc>
+  
+    <defs>
+      <linearGradient id="metal-chest-late-display-1600" x1="0" x2="1" y1="0" y2="1">
+        <stop offset="0%" stop-color="rgb(238 196 136)"/>
+        <stop offset="48%" stop-color="rgb(184 142 82)"/>
+        <stop offset="100%" stop-color="rgb(122 80 20)"/>
+      </linearGradient>
+      <radialGradient id="glow-chest-late-display-1600" cx="50%" cy="28%" r="62%">
+        <stop offset="0%" stop-color="rgb(255 230 178 / .34)"/>
+        <stop offset="100%" stop-color="rgb(255 230 178 / 0)"/>
+      </radialGradient>
+      <filter id="shadow-chest-late-display-1600" x="-25%" y="-25%" width="150%" height="150%">
+        <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="rgb(0 0 0)" flood-opacity=".38"/>
+      </filter>
+    </defs>
+  <g filter="url(#shadow-chest-late-display-1600)"><path d="M45 27h70l23 105c-32 17-84 17-116 0L45 27Z" fill="url(#metal-chest-late-display-1600)" stroke="rgb(35 27 21)" stroke-width="4"/><path d="M80 32v105" stroke="rgb(58 43 31 / .42)" stroke-width="4"/><path d="M56 48c16 9 32 9 48 0" fill="none" stroke="rgb(255 239 199 / .28)" stroke-width="5" stroke-linecap="round"/><path d="M49 91h62M53 119h54" stroke="rgb(52 41 33 / .45)" stroke-width="5" stroke-linecap="round"/></g>
+</svg>

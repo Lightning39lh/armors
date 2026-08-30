@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title-gloves-hourglass-gauntlets-1380 desc-gloves-hourglass-gauntlets-1380">
+  <title id="title-gloves-hourglass-gauntlets-1380">Hourglass Gauntlets</title>
+  <desc id="desc-gloves-hourglass-gauntlets-1380">Stylized local illustration for Hourglass Gauntlets.</desc>
+  
+    <defs>
+      <linearGradient id="metal-gloves-hourglass-gauntlets-1380" x1="0" x2="1" y1="0" y2="1">
+        <stop offset="0%" stop-color="rgb(186 167 145)"/>
+        <stop offset="48%" stop-color="rgb(132 113 91)"/>
+        <stop offset="100%" stop-color="rgb(70 51 29)"/>
+      </linearGradient>
+      <radialGradient id="glow-gloves-hourglass-gauntlets-1380" cx="50%" cy="28%" r="62%">
+        <stop offset="0%" stop-color="rgb(255 230 178 / .34)"/>
+        <stop offset="100%" stop-color="rgb(255 230 178 / 0)"/>
+      </radialGradient>
+      <filter id="shadow-gloves-hourglass-gauntlets-1380" x="-25%" y="-25%" width="150%" height="150%">
+        <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="rgb(0 0 0)" flood-opacity=".38"/>
+      </filter>
+    </defs>
+  <g filter="url(#shadow-gloves-hourglass-gauntlets-1380)"><path d="M37 91c7-7 18-4 19 6l-2 20c-7 5-18 5-25 0l-4-14c-1-6 3-10 12-12Z" fill="url(#metal-gloves-hourglass-gauntlets-1380)" stroke="rgb(35 27 21)" stroke-width="4"/><path d="M123 91c-7-7-18-4-19 6l2 20c7 5 18 5 25 0l4-14c1-6-3-10-12-12Z" fill="url(#metal-gloves-hourglass-gauntlets-1380)" stroke="rgb(35 27 21)" stroke-width="4"/><path d="M36 103v12" stroke="rgb(45 36 30 / .55)" stroke-width="2.8" stroke-linecap="round"/><path d="M44 101v14" stroke="rgb(45 36 30 / .55)" stroke-width="2.8" stroke-linecap="round"/><path d="M52 103v12" stroke="rgb(45 36 30 / .55)" stroke-width="2.8" stroke-linecap="round"/><path d="M108 103v12" stroke="rgb(45 36 30 / .55)" stroke-width="2.8" stroke-linecap="round"/><path d="M116 101v14" stroke="rgb(45 36 30 / .55)" stroke-width="2.8" stroke-linecap="round"/><path d="M124 103v12" stroke="rgb(45 36 30 / .55)" stroke-width="2.8" stroke-linecap="round"/></g>
+</svg>

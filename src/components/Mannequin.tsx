@@ -45,7 +45,7 @@ export function Mannequin({ selectedPieces }: MannequinProps) {
         return (
           <img
             alt={piece.name}
-            className="armor-layer"
+            className={`armor-layer armor-layer-${part}`}
             key={piece.id}
             loading="lazy"
             src={piece.image}

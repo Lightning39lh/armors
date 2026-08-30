@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title-helmet-great-helm-1490 desc-helmet-great-helm-1490">
+  <title id="title-helmet-great-helm-1490">Late Great Helm</title>
+  <desc id="desc-helmet-great-helm-1490">Stylized local illustration for Late Great Helm.</desc>
+  
+    <defs>
+      <linearGradient id="metal-helmet-great-helm-1490" x1="0" x2="1" y1="0" y2="1">
+        <stop offset="0%" stop-color="rgb(255 236 178)"/>
+        <stop offset="48%" stop-color="rgb(210 182 124)"/>
+        <stop offset="100%" stop-color="rgb(148 120 62)"/>
+      </linearGradient>
+      <radialGradient id="glow-helmet-great-helm-1490" cx="50%" cy="28%" r="62%">
+        <stop offset="0%" stop-color="rgb(255 230 178 / .34)"/>
+        <stop offset="100%" stop-color="rgb(255 230 178 / 0)"/>
+      </radialGradient>
+      <filter id="shadow-helmet-great-helm-1490" x="-25%" y="-25%" width="150%" height="150%">
+        <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="rgb(0 0 0)" flood-opacity=".38"/>
+      </filter>
+    </defs>
+  <g filter="url(#shadow-helmet-great-helm-1490)"><path d="M54 22h52c10 0 18 8 18 18v68c0 9-7 16-16 16H52c-9 0-16-7-16-16V40c0-10 8-18 18-18Z" fill="url(#metal-helmet-great-helm-1490)" stroke="rgb(35 27 21)" stroke-width="4"/><path d="M44 54h72v16H44z" fill="rgb(20 18 16)"/><path d="M50 86h60" stroke="rgb(36 30 26 / .72)" stroke-width="5" stroke-linecap="round"/><path d="M58 36h44" stroke="rgb(255 239 199 / .38)" stroke-width="5" stroke-linecap="round"/><circle cx="48" cy="44" r="2.8" fill="rgb(255 235 184 / .72)" stroke="rgb(38 28 20 / .45)"/><circle cx="112" cy="44" r="2.8" fill="rgb(255 235 184 / .72)" stroke="rgb(38 28 20 / .45)"/><circle cx="48" cy="112" r="2.8" fill="rgb(255 235 184 / .72)" stroke="rgb(38 28 20 / .45)"/><circle cx="112" cy="112" r="2.8" fill="rgb(255 235 184 / .72)" stroke="rgb(38 28 20 / .45)"/></g>
+</svg>

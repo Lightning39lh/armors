@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">Italian-style Klappvisor</title>
+  <desc id="desc">Local editable placeholder for an Italian-style klappvisor helmet.</desc>
+  <defs>
+    <linearGradient id="steel" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8fafc" />
+      <stop offset="0.56" stop-color="#9ca3af" />
+      <stop offset="1" stop-color="#374151" />
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="34" fill="#111827" />
+  <path d="M60 114c0-48 28-78 60-78s60 30 60 78v50c0 22-24 36-60 36s-60-14-60-36z" fill="url(#steel)" stroke="#e5e7eb" stroke-width="6" />
+  <circle cx="120" cy="86" r="8" fill="#111827" />
+  <path d="M78 104h74l24 38-30 34H82l-18-34z" fill="#1f2937" stroke="#cbd5e1" stroke-width="5" />
+  <path d="M88 120h62" stroke="#9ca3af" stroke-width="5" />
+  <path d="M102 148h46" stroke="#9ca3af" stroke-width="4" stroke-dasharray="6 7" />
+</svg>

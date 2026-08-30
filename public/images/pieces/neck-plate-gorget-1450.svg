@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title-neck-plate-gorget-1450 desc-neck-plate-gorget-1450">
+  <title id="title-neck-plate-gorget-1450">Plate Gorget</title>
+  <desc id="desc-neck-plate-gorget-1450">Stylized local illustration for Plate Gorget.</desc>
+  
+    <defs>
+      <linearGradient id="metal-neck-plate-gorget-1450" x1="0" x2="1" y1="0" y2="1">
+        <stop offset="0%" stop-color="rgb(228 216 194)"/>
+        <stop offset="48%" stop-color="rgb(174 162 140)"/>
+        <stop offset="100%" stop-color="rgb(112 100 78)"/>
+      </linearGradient>
+      <radialGradient id="glow-neck-plate-gorget-1450" cx="50%" cy="28%" r="62%">
+        <stop offset="0%" stop-color="rgb(255 230 178 / .34)"/>
+        <stop offset="100%" stop-color="rgb(255 230 178 / 0)"/>
+      </radialGradient>
+      <filter id="shadow-neck-plate-gorget-1450" x="-25%" y="-25%" width="150%" height="150%">
+        <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="rgb(0 0 0)" flood-opacity=".38"/>
+      </filter>
+    </defs>
+  <g filter="url(#shadow-neck-plate-gorget-1450)"><path d="M47 49c19-14 47-14 66 0l19 44c-25 19-79 19-104 0l19-44Z" fill="url(#metal-neck-plate-gorget-1450)" stroke="rgb(35 27 21)" stroke-width="4"/><path d="M52 68c18 10 38 10 56 0" fill="none" stroke="rgb(43 34 27 / .55)" stroke-width="5" stroke-linecap="round"/><circle cx="48" cy="90" r="2.8" fill="rgb(255 235 184 / .72)" stroke="rgb(38 28 20 / .45)"/><circle cx="112" cy="90" r="2.8" fill="rgb(255 235 184 / .72)" stroke="rgb(38 28 20 / .45)"/></g>
+</svg>

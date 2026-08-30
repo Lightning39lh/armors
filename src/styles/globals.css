@@ -36,6 +36,7 @@ html {
     radial-gradient(circle at top left, rgba(231, 184, 112, 0.16), transparent 30rem),
     radial-gradient(circle at 85% 20%, rgba(106, 79, 45, 0.24), transparent 28rem),
     linear-gradient(180deg, #17110d 0%, var(--bg) 44%, #0a0806 100%);
+  scroll-behavior: smooth;
 }
 
 body {
@@ -208,6 +209,25 @@ button:disabled {
   padding: clamp(0.85rem, 2vw, 1.15rem);
 }
 
+.catalog-panel,
+.validation-report {
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100svh - 2rem);
+}
+
+.catalog-panel .piece-list,
+.validation-report .issue-list {
+  min-height: 0;
+  overflow-y: auto;
+  padding-right: 0.18rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+.catalog-panel .piece-list {
+  max-height: calc(100svh - 12rem);
+}
+
 .piece-details-report {
   margin-top: 1rem;
 }
@@ -330,7 +350,35 @@ button:disabled {
 .armor-layer {
   height: auto;
   transform: translateZ(0);
+  pointer-events: none;
+  clip-path: inset(0 0 12% 0);
   filter: drop-shadow(0 18px 18px rgba(0, 0, 0, 0.38));
+}
+
+.armor-layer-helmet,
+.armor-layer-neckProtection,
+.armor-layer-weapon,
+.armor-layer-shield {
+  clip-path: inset(0 0 14% 0);
+}
+
+.armor-layer-arms {
+  transform: translateZ(0) scale(1.02);
+}
+
+.armor-layer-gloves {
+  transform: translateZ(0);
+  transform-origin: center top;
+}
+
+.armor-layer-boots {
+  transform: translateZ(0) scale(0.9);
+  transform-origin: center top;
+}
+
+.armor-layer-tabard {
+  transform: translateZ(0) scale(0.92);
+  transform-origin: center top;
 }
 
 .empty-slot {
@@ -552,6 +600,7 @@ button:disabled {
 .issue-list {
   display: grid;
   gap: 0.75rem;
+  max-height: calc(100svh - 16rem);
   margin-top: 0.75rem;
 }
 
@@ -676,12 +725,36 @@ button:disabled {
   .rules-layout {
     gap: 0.85rem;
   }
+
+  .catalog-panel,
+  .validation-report {
+    max-height: none;
+  }
+
+  .catalog-panel .piece-list,
+  .validation-report .issue-list {
+    max-height: 68svh;
+  }
 }
 
 @media (max-width: 680px) {
+  html {
+    scroll-snap-type: y proximity;
+  }
+
   .app-shell {
     width: min(100% - 0.9rem, 1360px);
     padding: 0.7rem 0 2rem;
+  }
+
+  .hero-panel,
+  .mannequin-panel,
+  .catalog-panel,
+  .rules-panel,
+  .validation-report,
+  .piece-details-report {
+    scroll-snap-align: start;
+    scroll-margin-top: 0.65rem;
   }
 
   .hero-panel {
@@ -755,6 +828,14 @@ button:disabled {
   .validation-report,
   .piece-details-report {
     padding: 0.78rem;
+  }
+
+  .catalog-panel .piece-list {
+    max-height: 58svh;
+  }
+
+  .validation-report .issue-list {
+    max-height: 52svh;
   }
 
   .piece-detail-grid {

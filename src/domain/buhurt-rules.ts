@@ -2,6 +2,7 @@ import { ARMOR_PART } from "./armor-part";
 import type { ArmorPart } from "./armor-part";
 import type { ArmorPiece, SelectedArmorPieces } from "./armor-piece";
 import { areHistoricalRegionsCompatible } from "./historical-region";
+import { getReviewFlagRule } from "./review-flag-rules";
 
 export const COMBAT_FORMAT = {
   BUHURT: "buhurt",
@@ -239,15 +240,20 @@ function validateManualReviewFlags(
   selectedPieces: ArmorPiece[],
 ): ValidationIssue[] {
   return selectedPieces.flatMap((piece) =>
-    piece.reviewFlags.map((flag) => ({
-      id: `review-${piece.id}-${flag}`,
-      status: VALIDATION_STATUS.MANUAL_REVIEW,
-      severity: INFRACTION_SEVERITY.MANUAL_REVIEW,
-      title: `${piece.name}: revisar ${flag}`,
-      description:
-        "Los PDFs oficiales tienen requisitos técnicos específicos. Esta app marca el punto para revisión manual hasta cargar la regla exacta con página/sección.",
-      relatedParts: [piece.part],
-      evidence: BUHURT_RULES_EVIDENCE,
-    })),
+    piece.reviewFlags.map((flag) => {
+      const rule = getReviewFlagRule(flag);
+
+      return {
+        id: `review-${piece.id}-${flag}`,
+        status: rule?.status ?? VALIDATION_STATUS.MANUAL_REVIEW,
+        severity: rule?.severity ?? INFRACTION_SEVERITY.MANUAL_REVIEW,
+        title: `${piece.name}: ${rule?.title ?? `revisar ${flag}`}`,
+        description:
+          rule?.description ??
+          "Los PDFs oficiales tienen requisitos técnicos específicos. Esta app marca el punto para revisión manual hasta cargar la regla exacta con página/sección.",
+        relatedParts: [piece.part],
+        evidence: rule?.evidence ?? BUHURT_RULES_EVIDENCE,
+      };
+    }),
   );
 }

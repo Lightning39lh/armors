@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title-weapon-polearm-1450 desc-weapon-polearm-1450">
+  <title id="title-weapon-polearm-1450">Two-handed Polearm</title>
+  <desc id="desc-weapon-polearm-1450">Stylized local illustration for Two-handed Polearm.</desc>
+  
+    <defs>
+      <linearGradient id="metal-weapon-polearm-1450" x1="0" x2="1" y1="0" y2="1">
+        <stop offset="0%" stop-color="rgb(252 250 239)"/>
+        <stop offset="48%" stop-color="rgb(198 196 185)"/>
+        <stop offset="100%" stop-color="rgb(136 134 123)"/>
+      </linearGradient>
+      <radialGradient id="glow-weapon-polearm-1450" cx="50%" cy="28%" r="62%">
+        <stop offset="0%" stop-color="rgb(255 230 178 / .34)"/>
+        <stop offset="100%" stop-color="rgb(255 230 178 / 0)"/>
+      </radialGradient>
+      <filter id="shadow-weapon-polearm-1450" x="-25%" y="-25%" width="150%" height="150%">
+        <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="rgb(0 0 0)" flood-opacity=".38"/>
+      </filter>
+    </defs>
+  <g filter="url(#shadow-weapon-polearm-1450)"><path d="M78 20h8v118h-8z" fill="rgb(93 58 33)"/><path d="M82 18l23 28-19 4-4 28-9-28-18-4 23-28Z" fill="url(#metal-weapon-polearm-1450)" stroke="rgb(35 27 21)" stroke-width="4"/></g>
+</svg>

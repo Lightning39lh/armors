@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title-shield-heater-1380 desc-shield-heater-1380">
+  <title id="title-shield-heater-1380">Heater Shield</title>
+  <desc id="desc-shield-heater-1380">Stylized local illustration for Heater Shield.</desc>
+  
+    <defs>
+      <linearGradient id="metal-shield-heater-1380" x1="0" x2="1" y1="0" y2="1">
+        <stop offset="0%" stop-color="rgb(219 132 108)"/>
+        <stop offset="48%" stop-color="rgb(165 78 54)"/>
+        <stop offset="100%" stop-color="rgb(103 16 0)"/>
+      </linearGradient>
+      <radialGradient id="glow-shield-heater-1380" cx="50%" cy="28%" r="62%">
+        <stop offset="0%" stop-color="rgb(255 230 178 / .34)"/>
+        <stop offset="100%" stop-color="rgb(255 230 178 / 0)"/>
+      </radialGradient>
+      <filter id="shadow-shield-heater-1380" x="-25%" y="-25%" width="150%" height="150%">
+        <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="rgb(0 0 0)" flood-opacity=".38"/>
+      </filter>
+    </defs>
+  <g filter="url(#shadow-shield-heater-1380)"><path d="M36 28h88v62c0 27-19 43-44 56-25-13-44-29-44-56V28Z" fill="url(#metal-shield-heater-1380)" stroke="rgb(35 27 21)" stroke-width="4"/><path d="M80 32v101M41 74h78" stroke="rgb(255 228 166 / .42)" stroke-width="5"/></g>
+</svg>

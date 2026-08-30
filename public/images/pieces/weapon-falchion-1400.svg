@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title-weapon-falchion-1400 desc-weapon-falchion-1400">
+  <title id="title-weapon-falchion-1400">Falchion</title>
+  <desc id="desc-weapon-falchion-1400">Stylized local illustration for Falchion.</desc>
+  
+    <defs>
+      <linearGradient id="metal-weapon-falchion-1400" x1="0" x2="1" y1="0" y2="1">
+        <stop offset="0%" stop-color="rgb(252 250 239)"/>
+        <stop offset="48%" stop-color="rgb(198 196 185)"/>
+        <stop offset="100%" stop-color="rgb(136 134 123)"/>
+      </linearGradient>
+      <radialGradient id="glow-weapon-falchion-1400" cx="50%" cy="28%" r="62%">
+        <stop offset="0%" stop-color="rgb(255 230 178 / .34)"/>
+        <stop offset="100%" stop-color="rgb(255 230 178 / 0)"/>
+      </radialGradient>
+      <filter id="shadow-weapon-falchion-1400" x="-25%" y="-25%" width="150%" height="150%">
+        <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="rgb(0 0 0)" flood-opacity=".38"/>
+      </filter>
+    </defs>
+  <g filter="url(#shadow-weapon-falchion-1400)"><path d="M67 118l52-85c8 25 2 52-24 81l-14 15-14-11Z" fill="url(#metal-weapon-falchion-1400)" stroke="rgb(35 27 21)" stroke-width="4"/><path d="M54 124l23-23 13 13-23 23z" fill="rgb(93 58 33)"/><path d="M48 116l28 28" stroke="rgb(231 184 112)" stroke-width="7" stroke-linecap="round"/></g>
+</svg>

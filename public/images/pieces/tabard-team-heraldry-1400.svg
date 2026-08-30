@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title-tabard-team-heraldry-1400 desc-tabard-team-heraldry-1400">
+  <title id="title-tabard-team-heraldry-1400">Team Tabard</title>
+  <desc id="desc-tabard-team-heraldry-1400">Stylized local illustration for Team Tabard.</desc>
+  
+    <defs>
+      <linearGradient id="metal-tabard-team-heraldry-1400" x1="0" x2="1" y1="0" y2="1">
+        <stop offset="0%" stop-color="rgb(186 92 96)"/>
+        <stop offset="48%" stop-color="rgb(132 38 42)"/>
+        <stop offset="100%" stop-color="rgb(70 0 0)"/>
+      </linearGradient>
+      <radialGradient id="glow-tabard-team-heraldry-1400" cx="50%" cy="28%" r="62%">
+        <stop offset="0%" stop-color="rgb(255 230 178 / .34)"/>
+        <stop offset="100%" stop-color="rgb(255 230 178 / 0)"/>
+      </radialGradient>
+      <filter id="shadow-tabard-team-heraldry-1400" x="-25%" y="-25%" width="150%" height="150%">
+        <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="rgb(0 0 0)" flood-opacity=".38"/>
+      </filter>
+    </defs>
+  <g filter="url(#shadow-tabard-team-heraldry-1400)"><path d="M55 24h50l20 30-14 14-12-10v77l-20 12-20-12V54L43 68 35 54 55 24Z" fill="url(#metal-tabard-team-heraldry-1400)" stroke="rgb(35 27 21)" stroke-width="4"/><path d="M80 29v93" stroke="rgb(255 228 166 / .42)" stroke-width="5"/><path d="M61 61h38" stroke="rgb(255 228 166 / .42)" stroke-width="5"/></g>
+</svg>

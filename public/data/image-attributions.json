@@ -1,0 +1,447 @@
+{
+  "generatedFrom": "Local SVG generator",
+  "notes": "All catalog and mannequin images are local stylized SVG placeholders for consistency and replacement safety.",
+  "items": [
+    {
+      "pieceId": "helmet-great-helm-1320",
+      "pieceName": "Great Helm 1320",
+      "imagePath": "/images/pieces/helmet-great-helm-1320.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "helmet-bascinet-klappvisor-1370",
+      "pieceName": "Klappvisor Bascinet",
+      "imagePath": "/images/pieces/helmet-bascinet-klappvisor-1370.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "helmet-sallet-1450",
+      "pieceName": "Sallet 1450",
+      "imagePath": "/images/pieces/helmet-sallet-1450.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "helmet-wolfrib-1390",
+      "pieceName": "Wolfrib Helmet",
+      "imagePath": "/images/pieces/helmet-wolfrib-1390.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "neck-aventail-1370",
+      "pieceName": "Mail Aventail",
+      "imagePath": "/images/pieces/neck-aventail-1370.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "neck-plate-gorget-1450",
+      "pieceName": "Plate Gorget",
+      "imagePath": "/images/pieces/neck-plate-gorget-1450.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "chest-brigandine-1360",
+      "pieceName": "Brigandine Torso Armor",
+      "imagePath": "/images/pieces/chest-brigandine-1360.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "chest-cuirass-1450",
+      "pieceName": "Plate Cuirass",
+      "imagePath": "/images/pieces/chest-cuirass-1450.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "chest-late-display-1600",
+      "pieceName": "Late Display Cuirass",
+      "imagePath": "/images/pieces/chest-late-display-1600.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "arms-plate-harness-1400",
+      "pieceName": "Plate Arm Harness",
+      "imagePath": "/images/pieces/arms-plate-harness-1400.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "arms-mail-sleeves-1320",
+      "pieceName": "Mail Sleeves",
+      "imagePath": "/images/pieces/arms-mail-sleeves-1320.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "gloves-hourglass-gauntlets-1380",
+      "pieceName": "Hourglass Gauntlets",
+      "imagePath": "/images/pieces/gloves-hourglass-gauntlets-1380.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "gloves-mitten-gauntlets-1450",
+      "pieceName": "Mitten Gauntlets",
+      "imagePath": "/images/pieces/gloves-mitten-gauntlets-1450.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "legs-greaves-1400",
+      "pieceName": "Greaves and Poleyns",
+      "imagePath": "/images/pieces/legs-greaves-1400.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "legs-mail-chausses-1320",
+      "pieceName": "Mail Chausses",
+      "imagePath": "/images/pieces/legs-mail-chausses-1320.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "boots-sabatons-1400",
+      "pieceName": "Plate Sabatons",
+      "imagePath": "/images/pieces/boots-sabatons-1400.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "boots-leather-boots-1350",
+      "pieceName": "Reinforced Leather Boots",
+      "imagePath": "/images/pieces/boots-leather-boots-1350.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "weapon-one-handed-sword-1380",
+      "pieceName": "One-handed Sword",
+      "imagePath": "/images/pieces/weapon-one-handed-sword-1380.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "weapon-falchion-1400",
+      "pieceName": "Falchion",
+      "imagePath": "/images/pieces/weapon-falchion-1400.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "weapon-polearm-1450",
+      "pieceName": "Two-handed Polearm",
+      "imagePath": "/images/pieces/weapon-polearm-1450.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "shield-heater-1380",
+      "pieceName": "Heater Shield",
+      "imagePath": "/images/pieces/shield-heater-1380.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "shield-buckler-1450",
+      "pieceName": "Buckler",
+      "imagePath": "/images/pieces/shield-buckler-1450.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "tabard-team-heraldry-1400",
+      "pieceName": "Team Tabard",
+      "imagePath": "/images/pieces/tabard-team-heraldry-1400.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "helmet-side-hinged-sugarloaf-1325",
+      "pieceName": "Sugarloaf Side-hinged Bascinet",
+      "imagePath": "/images/pieces/helmet-side-hinged-sugarloaf-1325.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "helmet-side-hinged-romance-1370",
+      "pieceName": "Romance Side-hinged Bascinet",
+      "imagePath": "/images/pieces/helmet-side-hinged-romance-1370.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "helmet-houndskull-bascinet-1400",
+      "pieceName": "Houndskull / Hundsgugel Bascinet",
+      "imagePath": "/images/pieces/helmet-houndskull-bascinet-1400.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "helmet-great-bascinet-1420",
+      "pieceName": "Great Bascinet",
+      "imagePath": "/images/pieces/helmet-great-bascinet-1420.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "helmet-great-helm-1490",
+      "pieceName": "Late Great Helm",
+      "imagePath": "/images/pieces/helmet-great-helm-1490.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "helmet-wolf-ribs-1400",
+      "pieceName": "Wolf Ribs Helmet",
+      "imagePath": "/images/pieces/helmet-wolf-ribs-1400.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "neck-scale-aventail-1415",
+      "pieceName": "Scale Aventail",
+      "imagePath": "/images/pieces/neck-scale-aventail-1415.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "neck-fabric-aventail-1385",
+      "pieceName": "Fabric Aventail",
+      "imagePath": "/images/pieces/neck-fabric-aventail-1385.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "neck-shield-1400",
+      "pieceName": "Neck Shield",
+      "imagePath": "/images/pieces/neck-shield-1400.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "neck-lobster-tail-1450",
+      "pieceName": "Lobster Tail Neck Protection",
+      "imagePath": "/images/pieces/neck-lobster-tail-1450.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "neck-concealed-plates-1400",
+      "pieceName": "Concealed Neck Plates",
+      "imagePath": "/images/pieces/neck-concealed-plates-1400.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "legs-one-panel-greaves-1350",
+      "pieceName": "One Panel Greaves / Half-Greaves",
+      "imagePath": "/images/pieces/legs-one-panel-greaves-1350.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "legs-two-panel-cased-greaves-1400",
+      "pieceName": "Two Panel / Cased Greaves",
+      "imagePath": "/images/pieces/legs-two-panel-cased-greaves-1400.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "legs-three-panel-greaves-1400",
+      "pieceName": "Three Panel Greaves",
+      "imagePath": "/images/pieces/legs-three-panel-greaves-1400.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "legs-splinted-greaves-1400",
+      "pieceName": "Splinted Greaves",
+      "imagePath": "/images/pieces/legs-splinted-greaves-1400.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "legs-brigand-greaves-1400",
+      "pieceName": "Brigand Greaves",
+      "imagePath": "/images/pieces/legs-brigand-greaves-1400.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "boots-brigand-sabatons-1400",
+      "pieceName": "Brigand Sabatons",
+      "imagePath": "/images/pieces/boots-brigand-sabatons-1400.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "boots-scale-sabatons-1400",
+      "pieceName": "Scale Sabatons",
+      "imagePath": "/images/pieces/boots-scale-sabatons-1400.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "boots-chainmail-sabatons-1320",
+      "pieceName": "Chainmail Sabatons",
+      "imagePath": "/images/pieces/boots-chainmail-sabatons-1320.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "shield-punch-1400",
+      "pieceName": "Punch Shield",
+      "imagePath": "/images/pieces/shield-punch-1400.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "shield-round-1350",
+      "pieceName": "Round Shield",
+      "imagePath": "/images/pieces/shield-round-1350.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "shield-metal-buckler-1450",
+      "pieceName": "Metal Buckler",
+      "imagePath": "/images/pieces/shield-metal-buckler-1450.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "tabard-sleeveless-1400",
+      "pieceName": "Sleeveless Tabard",
+      "imagePath": "/images/pieces/tabard-sleeveless-1400.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "tabard-short-sleeves-1400",
+      "pieceName": "Short-sleeves Tabard",
+      "imagePath": "/images/pieces/tabard-short-sleeves-1400.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "tabard-long-sleeves-1400",
+      "pieceName": "Long-sleeves Tabard",
+      "imagePath": "/images/pieces/tabard-long-sleeves-1400.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "tabard-belt-flag-2024",
+      "pieceName": "Belt Flag",
+      "imagePath": "/images/pieces/tabard-belt-flag-2024.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "helmet-nasal-bascinet-1350",
+      "pieceName": "Nasal Bascinet",
+      "imagePath": "/images/pieces/helmet-nasal-bascinet-1350.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "helmet-breteche-bascinet-1350",
+      "pieceName": "Breteche Bascinet",
+      "imagePath": "/images/pieces/helmet-breteche-bascinet-1350.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "helmet-klappvisor-german-1370",
+      "pieceName": "German-style Klappvisor",
+      "imagePath": "/images/pieces/helmet-klappvisor-german-1370.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "helmet-klappvisor-italian-1370",
+      "pieceName": "Italian-style Klappvisor",
+      "imagePath": "/images/pieces/helmet-klappvisor-italian-1370.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "helmet-klappvisor-other-1375",
+      "pieceName": "Other-style Klappvisor",
+      "imagePath": "/images/pieces/helmet-klappvisor-other-1375.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    },
+    {
+      "pieceId": "legs-three-quarter-greaves-1400",
+      "pieceName": "Three Quarters Greaves",
+      "imagePath": "/images/pieces/legs-three-quarter-greaves-1400.svg",
+      "source": "Generated local SVG",
+      "license": "Project asset placeholder",
+      "note": "Stylized vector placeholder generated for visual consistency. Intended to be replaced by curated historical artwork/photos later if desired."
+    }
+  ],
+  "missing": []
+}
